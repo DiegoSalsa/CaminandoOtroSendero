@@ -20,6 +20,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;
 }
 
 body {
@@ -118,6 +119,7 @@ body {
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    z-index: 1001;
 }
 
 .hamburger span {
@@ -1127,7 +1129,27 @@ section {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .nav-menu {
-        display: none;
+        position: fixed;
+        left: -100%;
+        top: 110px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 0;
+        padding: 20px 0;
+        z-index: 999;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        padding: 15px 0;
+        border-bottom: 1px solid var(--bg-light);
     }
 
     .hamburger {
@@ -1179,14 +1201,54 @@ section {
         grid-template-columns: 1fr;
     }
 
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonio-card {
+        grid-template-columns: 1fr;
+    }
+
+    .especies-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .image-placeholder {
         width: 200px;
         height: 200px;
         font-size: 4rem;
     }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
+    html {
+        scroll-padding-top: 100px;
+    }
+
+    .nav-container {
+        height: 80px;
+    }
+
+    .logo-img {
+        height: 60px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
     .hero-title {
         font-size: 2rem;
     }
@@ -1200,24 +1262,7 @@ section {
     }
 
     .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        flex-direction: column;
-        background-color: white;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        gap: 0;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-menu li {
-        padding: 20px 0;
-        border-bottom: 1px solid var(--bg-light);
+        top: 80px;
     }
 
     section {
@@ -1226,5 +1271,22 @@ section {
 
     .section-title {
         font-size: 1.8rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .especies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 16px;
     }
 }
