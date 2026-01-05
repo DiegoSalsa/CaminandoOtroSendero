@@ -1,0 +1,11 @@
+{
+  "name": "caminando-otro-sendero",
+  "version": "1.0.0",
+  "description": "Landing page for Caminando Otro Sendero",
+  "scripts": {
+    "dev": "npx -y serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

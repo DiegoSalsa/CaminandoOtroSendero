@@ -235,6 +235,57 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+    /* ===== VANILLA TILT EFFECT ===== */
+    const cards = document.querySelectorAll('.service-card, .team-card, .investigacion-card, .galeria-item');
+
+    cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = ((y - centerY) / centerY) * -5; // Max rotation X deg
+            const rotateY = ((x - centerX) / centerX) * 5;  // Max rotation Y deg
+
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
+        });
+    });
+
+    /* ===== STAGGERED ANIMATIONS ON SCROLL ===== */
+    const observerOptionsStaggered = { // Renamed to avoid conflict
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const staggeredObserver = new IntersectionObserver((entries) => { // Renamed to avoid conflict
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = "1";
+                entry.target.style.transform = "translateY(0)";
+                staggeredObserver.unobserve(entry.target); // Only animate once
+            }
+        });
+    }, observerOptionsStaggered);
+
+    // Select elements to animate
+    const animatedElements = document.querySelectorAll('.service-card, .about-text, .image-placeholder, .timeline-item, .stat-card, .team-card, .testimonio-card, .especie-card');
+    
+    animatedElements.forEach((el, index) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(30px)";
+        el.style.transition = "opacity 0.6s ease-out, transform 0.6s ease-out";
+        // Add delay based on index for grid items if needed, but simple observer is cleaner for diverse elements
+        staggeredObserver.observe(el);
+    });
+
+
 // ===== LAZY LOADING DE IMÁGENES =====
 if ('IntersectionObserver' in window) {
     const imageObserver = new IntersectionObserver((entries, observer) => {
