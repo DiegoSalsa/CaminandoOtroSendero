@@ -13,41 +13,16 @@
     <link rel="icon" type="image/png" href="Favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
-    <!-- Navegación -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <img src="images/Logo.png" alt="Logo Caminando Otro Sendero" class="logo-img">
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                <li><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="#somos" class="nav-link">Nosotros</a></li>
-                <li><a href="#investigaciones" class="nav-link">Investigaciones</a></li>
-                <li><a href="#galeria" class="nav-link">Galería</a></li>
-                <li><a href="#equipo" class="nav-link">Equipo</a></li>
-                <li><a href="#faq" class="nav-link">FAQ</a></li>
-                <li><a href="#cotizacion" class="nav-link">Cotización</a></li>
-                <li><a href="#contacto" class="nav-link">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+    <div id="header-container"></div>
 
     <!-- Hero Section -->
-    <section id="inicio" class="hero">
-        <!-- Carrusel de Imágenes -->
+    <section class="hero">
         <div class="hero-carousel">
             <div class="carousel-slide active" style="background-image: url('images/header1.jpg')"></div>
             <div class="carousel-slide" style="background-image: url('images/header2.jpg')"></div>
@@ -57,549 +32,276 @@
         </div>
 
         <div class="hero-content">
-            <h1 class="hero-title fade-in">ESTAMOS EN EL AMBIENTE</h1>
-            <p class="hero-subtitle fade-in-delay">Consultoría, investigación y educación ambiental</p>
-            <a href="#servicios" class="btn btn-primary scroll-link">Conocer nuestros servicios</a>
+            <span class="hero-badge" data-animate="fade-down" data-delay="1">Consultoría Ambiental</span>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="2">Estamos en el<br><em>Ambiente</em></h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="3">Investigación científica, consultoría especializada y educación ambiental para un futuro sostenible.</p>
+            <div class="hero-buttons" data-animate="fade-up" data-delay="4">
+                <a href="pages/servicios.html" class="btn btn-primary">Explorar servicios</a>
+                <a href="pages/contacto.html" class="btn btn-secondary">Contactar</a>
+            </div>
         </div>
 
-        <!-- Indicadores del Carrusel -->
-        <div class="carousel-indicators">
-            <span class="indicator active" data-slide="0"></span>
-            <span class="indicator" data-slide="1"></span>
-            <span class="indicator" data-slide="2"></span>
-            <span class="indicator" data-slide="3"></span>
-        </div>
     </section>
 
-    <!-- Servicios -->
-    <section id="servicios" class="servicios">
+    <!-- Trusted By / Brands Section -->
+    <section class="trusted-section">
         <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <p class="section-subtitle">Experiencia en consultoría ambiental y educación</p>
-
-            <div class="services-grid">
-                <div class="service-card" data-aos="fade-up">
-                    <div class="service-icon">🦗</div>
-                    <h3>Línea Base de Invertebrados Terrestres</h3>
-                    <p>Realizamos la línea base de Invertebrados terrestres (Entomofauna, Artrópodos) para Estudios de
-                        Impacto Ambiental (EIA) y Declaraciones de Impacto Ambiental (DIA). Tramitamos el permiso de
-                        captura, diseñamos y ejecutamos el muestreo, análisis taxonómico e informe técnico.</p>
-                </div>
-
-                <div class="service-card" data-aos="fade-up">
-                    <div class="service-icon">🐠</div>
-                    <h3>Taxonomía de Invertebrados Acuáticos</h3>
-                    <p>Análisis taxonómico de muestras de: Fitobentos, Zoobentos, Fitoplancton, Zooplancton y Peces de
-                        ecosistemas continentales y salares para EIA y DIA con metodología científica rigurosa.</p>
-                </div>
-
-                <div class="service-card" data-aos="fade-up">
-                    <div class="service-icon">📚</div>
-                    <h3>Charlas y Capacitaciones</h3>
-                    <p>Capacitaciones en metodologías de muestreo en sistemas acuáticos continentales e invertebrados
-                        terrestres, taxonomía, entomología y otras disciplinas ambientales especializadas.</p>
-                </div>
-
-                <div class="service-card" data-aos="fade-up">
-                    <div class="service-icon">🌱</div>
-                    <h3>Educación Ambiental</h3>
-                    <p>Talleres, charlas y caminatas para colegios, instituciones y público en general al estilo
-                        Caminando Otro Sendero. Fomentamos la conexión con la naturaleza y la conciencia ambiental.</p>
+            <div class="trusted-content" data-animate="fade-up">
+                <span class="trusted-label">Trabajamos con metodologías reconocidas por</span>
+                <div class="trusted-logos">
+                    <span>SAG</span>
+                    <span>CONAF</span>
+                    <span>SEREMI</span>
+                    <span>MMA</span>
+                    <span>SEA</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Quiénes Somos -->
-    <section id="somos" class="about" data-parallax="0.3">
+    <!-- Services Section -->
+    <section id="servicios" class="services-section">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text fade-in-left">
-                    <h2>¿Quiénes Somos?</h2>
-                    <p>Somos una empresa creada el 2018 por <strong>Luis E. Carrera Suárez</strong> como una E.I.R.L
-                        proveedora de servicios de consultoría ambiental con experiencia en estudios de línea base en
-                        sistemas terrestres y acuáticos continentales.</p>
-                    <p>Nuestro enfoque integra la investigación científica rigurosa con la educación ambiental, creando
-                        un puente entre el conocimiento especializado y la comunidad.</p>
-                    <p style="margin-top: 1.5rem; font-style: italic; color: #27ae60;"><strong>Hoy, seguimos Caminando
-                            Otro Sendero.</strong></p>
-                </div>
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <span>🔬</span>
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Nuestros servicios</span>
+                <h2 class="section-title">Soluciones ambientales<br><span>integrales</span></h2>
+            </div>
+
+            <div class="services-grid-new stagger-children">
+                <article class="service-card-new hover-lift" data-animate="fade-up" data-delay="1">
+                    <div class="service-card-img">
+                        <img src="images/header1.jpg" alt="Línea Base Terrestre">
+                        <div class="service-card-img-overlay"></div>
+                        <span class="service-card-num">01</span>
                     </div>
-                </div>
+                    <div class="service-card-body">
+                        <div class="service-card-icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h3>Línea Base Terrestre</h3>
+                        <p>Estudios especializados de Entomofauna y Artrópodos para EIA y DIA con metodología científica rigurosa.</p>
+                        <ul class="service-card-list">
+                            <li>Muestreo sistemático</li>
+                            <li>Identificación taxonómica</li>
+                            <li>Informes detallados</li>
+                        </ul>
+                        <a href="pages/servicios/linea-base-terrestre.html" class="service-card-btn">Conocer más <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </article>
+
+                <article class="service-card-new hover-lift" data-animate="fade-up" data-delay="2">
+                    <div class="service-card-img">
+                        <img src="images/header2.jpg" alt="Taxonomía Acuática">
+                        <div class="service-card-img-overlay"></div>
+                        <span class="service-card-num">02</span>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h2a8 8 0 0 1 16 0h2"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </div>
+                        <h3>Taxonomía Acuática</h3>
+                        <p>Análisis taxonómico integral de ecosistemas acuáticos continentales con laboratorio certificado.</p>
+                        <ul class="service-card-list">
+                            <li>Análisis de fitoplancton</li>
+                            <li>Estudios de zooplancton</li>
+                            <li>Caracterización bentónica</li>
+                        </ul>
+                        <a href="pages/servicios/taxonomia-acuatica.html" class="service-card-btn">Conocer más <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </article>
+
+                <article class="service-card-new hover-lift" data-animate="fade-up" data-delay="3">
+                    <div class="service-card-img">
+                        <img src="images/header3.jpg" alt="Capacitaciones">
+                        <div class="service-card-img-overlay"></div>
+                        <span class="service-card-num">03</span>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        </div>
+                        <h3>Capacitaciones</h3>
+                        <p>Programas de formación especializada para profesionales y empresas en temas ambientales.</p>
+                        <ul class="service-card-list">
+                            <li>Cursos de taxonomía</li>
+                            <li>Técnicas de muestreo</li>
+                            <li>Identificación de especies</li>
+                        </ul>
+                        <a href="pages/servicios/capacitaciones.html" class="service-card-btn">Conocer más <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </article>
+
+                <article class="service-card-new hover-lift" data-animate="fade-up" data-delay="4">
+                    <div class="service-card-img">
+                        <img src="images/header4.jpg" alt="Educación Ambiental">
+                        <div class="service-card-img-overlay"></div>
+                        <span class="service-card-num">04</span>
+                    </div>
+                    <div class="service-card-body">
+                        <div class="service-card-icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Educación Ambiental</h3>
+                        <p>Programas educativos para comunidades e instituciones que buscan generar conciencia ambiental.</p>
+                        <ul class="service-card-list">
+                            <li>Talleres interactivos</li>
+                            <li>Charlas especializadas</li>
+                            <li>Programas escolares</li>
+                        </ul>
+                        <a href="pages/servicios/educacion-ambiental.html" class="service-card-btn">Conocer más <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Investigaciones -->
-    <section id="investigaciones" class="investigaciones">
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <div class="container">
-            <h2 class="section-title">Investigaciones</h2>
-            <p class="section-subtitle">Publicaciones científicas y contribuciones académicas</p>
-
-            <div class="investigaciones-grid">
-                <div class="investigacion-card" data-aos="fade-up">
-                    <div class="year-badge">2023</div>
-                    <h3>Effects of an extreme drought on the feeding ecology of Bubo magellanicus</h3>
-                    <p>Catchpole, Sam, Carrera-Suárez L.E y Reinaldo Vera (2023). Peer j. J 11: e15020.</p>
-                    <a href="https://peerj.com/articles/15020/" class="btn-link" target="_blank">Leer artículo →</a>
-                </div>
-
-                <div class="investigacion-card" data-aos="fade-up">
-                    <div class="year-badge">2021</div>
-                    <h3>Effects of electrofishing on tadpoles of Calyptocephalella gayi</h3>
-                    <p>Carrera-Suárez L.E. & Catchpole, Sam (2021). Boletín chileno de herpetología. 8: 67-89.</p>
-                    <a href="http://www.boletindeherpetologia.com/uploads/3/2/2/9/32291217/8._carrerasuarez_catchpole2021.pdf"
-                        class="btn-link" target="_blank">Leer artículo →</a>
-                </div>
-
-                <div class="investigacion-card" data-aos="fade-up">
-                    <div class="year-badge">2011</div>
-                    <h3>Catálogo de los Noctuidae de la Isla Robinson Crusoe</h3>
-                    <p>Carrera-Suárez L.E., T.S. Olivares & A.O. Angulo (2011). SHILAP, Revista de Lepidopterología. 39
-                        (153): 87-98.</p>
-                    <a href="https://www.academia.edu/128736778/Cat%C3%A1logo_de_los_Noctuidae_de_la_Isla_Robinson_Crusoe_Chile_con_nuevos_registros_y_datos_taxon%C3%B3micos_Lepidoptera_Noctuidae_"
-                        class="btn-link" target="_blank">Leer artículo →</a>
-                </div>
-
-                <div class="investigacion-card" data-aos="fade-up">
-                    <div class="year-badge">2010</div>
-                    <h3>Nueva especie de Pseudoleucania Staudinger endémica para la Isla Robinson Crusoe</h3>
-                    <p>Carrera-Suárez L.E., A.O. Angulo & T.S. Olivares (2010). Gayana. 74 (1): 19-22.</p>
-                    <a href="https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-65382010000100005"
-                        class="btn-link" target="_blank">Leer artículo →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experiencias -->
-    <section id="experiencias" class="experiencias">
-        <div class="container">
-            <h2 class="section-title">Experiencias</h2>
-            <p class="section-subtitle">Proyectos completados y clientes satisfechos</p>
-
-            <div class="experiencias-timeline">
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>2023 - Proyecto La Coipa</h3>
-                        <p><strong>Línea base de invertebrados en EIA: "Extensión de la vida útil Faena la Coipa"
-                                (Kinross)</strong></p>
-                        <p>Trabajo realizado para Centro de Ecología Aplicada (diciembre 2023).</p>
+            <div class="about-grid">
+                <div class="about-visual" data-animate="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-main">
+                            <img src="images/header2.jpg" alt="Trabajo de campo">
+                        </div>
+                        <div class="about-stats-card" data-animate="zoom-in" data-delay="3">
+                            <div class="stat-highlight">
+                                <span class="stat-number" data-counter="50" data-prefix="+">0</span>
+                                <span class="stat-label">Proyectos</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="timeline-item" data-aos="fade-left">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>2020-2023 - Traslado LAT 220 kv</h3>
-                        <p><strong>Línea base de artrópodos en EIA: "Traslado LAT 220 kv Las Tórtolas"
-                                (Angloamerican)</strong></p>
-                        <p>Trabajo para Pares y Álvarez (enero 2020, junio 2022, noviembre 2022, noviembre 2023).</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-aos="fade-right">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>2020-2024 - Central Hidroeléctrica San Carlos</h3>
-                        <p><strong>Recolectar macroinvertebrados e identificación taxonómica</strong></p>
-                        <p>Proyecto para Pares y Álvarez (noviembre 2020, enero-junio 2021, octubre 2023, abril 2024).
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Galería de Proyectos -->
-    <section id="galeria" class="galeria">
-        <div class="container">
-            <h2 class="section-title">Galería de Proyectos</h2>
-            <p class="section-subtitle">Conoce nuestros trabajos en terreno</p>
-
-            <div class="galeria-grid">
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 3</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 4</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 5</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-                <div class="galeria-item" data-aos="fade-up">
-                    <div class="galeria-image-placeholder">📷</div>
-                    <h3>Proyecto 6</h3>
-                    <p>Descripción del proyecto</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Estadísticas -->
-    <section id="estadisticas" class="estadisticas">
-        <div class="container">
-            <h2 class="section-title">Nuestro Impacto</h2>
-            <p class="section-subtitle">Números que hablan por nosotros</p>
-
-            <div class="stats-grid">
-                <div class="stat-card" data-aos="fade-up">
-                    <h3 class="stat-number" data-value="2018">0</h3>
-                    <p>Año de Fundación</p>
-                </div>
-                <div class="stat-card" data-aos="fade-up">
-                    <h3 class="stat-number" data-value="50">0</h3>
-                    <p>Proyectos Completados</p>
-                </div>
-                <div class="stat-card" data-aos="fade-up">
-                    <h3 class="stat-number" data-value="1000">0</h3>
-                    <p>Personas Capacitadas</p>
-                </div>
-                <div class="stat-card" data-aos="fade-up">
-                    <h3 class="stat-number" data-value="500">0</h3>
-                    <p>Especies Estudiadas</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Equipo -->
-    <section id="equipo" class="equipo">
-        <div class="container">
-            <h2 class="section-title">Nuestro Equipo</h2>
-            <p class="section-subtitle">Profesionales especializados en consultoría ambiental</p>
-
-            <div class="team-grid">
-                <div class="team-card" data-aos="fade-up">
-                    <div class="team-image-placeholder">👤</div>
-                    <h3>Nombre del Profesional</h3>
-                    <p class="team-role">Especialidad</p>
-                    <p class="team-bio">Breve descripción de experiencia y especialización</p>
-                </div>
-                <div class="team-card" data-aos="fade-up">
-                    <div class="team-image-placeholder">👤</div>
-                    <h3>Nombre del Profesional</h3>
-                    <p class="team-role">Especialidad</p>
-                    <p class="team-bio">Breve descripción de experiencia y especialización</p>
-                </div>
-                <div class="team-card" data-aos="fade-up">
-                    <div class="team-image-placeholder">👤</div>
-                    <h3>Nombre del Profesional</h3>
-                    <p class="team-role">Especialidad</p>
-                    <p class="team-bio">Breve descripción de experiencia y especialización</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonios -->
-    <section id="testimonios" class="testimonios">
-        <div class="container">
-            <h2 class="section-title">Testimonios de Clientes</h2>
-            <p class="section-subtitle">Lo que dicen nuestros clientes</p>
-
-            <div class="testimonios-grid">
-                <div class="testimonio-card" data-aos="fade-up">
-                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonio-text">"Texto del testimonio del cliente destacando la calidad del trabajo."</p>
-                    <p class="testimonio-author"><strong>Nombre del Cliente</strong><br>Empresa / Institución</p>
-                </div>
-                <div class="testimonio-card" data-aos="fade-up">
-                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonio-text">"Texto del testimonio del cliente destacando la calidad del trabajo."</p>
-                    <p class="testimonio-author"><strong>Nombre del Cliente</strong><br>Empresa / Institución</p>
-                </div>
-                <div class="testimonio-card" data-aos="fade-up">
-                    <div class="testimonio-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonio-text">"Texto del testimonio del cliente destacando la calidad del trabajo."</p>
-                    <p class="testimonio-author"><strong>Nombre del Cliente</strong><br>Empresa / Institución</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Galería de Especies -->
-    <section id="especies" class="especies">
-        <div class="container">
-            <h2 class="section-title">Galería de Especies</h2>
-            <p class="section-subtitle">Invertebrados y fauna que estudiamos</p>
-
-            <div class="especies-grid">
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-                <div class="especie-card" data-aos="fade-up">
-                    <div class="especie-image-placeholder">🦗</div>
-                    <h3>Nombre Común</h3>
-                    <p class="especie-cientifico"><em>Nombre científico</em></p>
-                    <p>Descripción breve de la especie</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <h2 class="section-title">Preguntas Frecuentes</h2>
-            <p class="section-subtitle">Respuestas a tus dudas</p>
-
-            <div class="faq-container">
-                <div class="faq-item" data-aos="fade-up">
-                    <button class="faq-question">
-                        <span>¿Cuál es el costo de un estudio de línea base?</span>
-                        <span class="faq-toggle">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p>El costo varía según el alcance del proyecto. Contactanos para una cotización personalizada.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-aos="fade-up">
-                    <button class="faq-question">
-                        <span>¿Cuánto tiempo toma realizar una investigación?</span>
-                        <span class="faq-toggle">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p>El tiempo depende del tipo de estudio y la extensión del área. Generalmente entre 2-6 meses.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-aos="fade-up">
-                    <button class="faq-question">
-                        <span>¿Qué metodologías utilizan?</span>
-                        <span class="faq-toggle">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Utilizamos metodologías científicas rigurosas adaptadas a cada ecosistema y tipo de estudio.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-aos="fade-up">
-                    <button class="faq-question">
-                        <span>¿Realizan estudios a nivel nacional e internacional?</span>
-                        <span class="faq-toggle">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Sí, tenemos experiencia en proyectos a lo largo de Chile. Consulta sobre proyectos
-                            internacionales.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item" data-aos="fade-up">
-                    <button class="faq-question">
-                        <span>¿Ofrecen capacitaciones personalizadas?</span>
-                        <span class="faq-toggle">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Sí, diseñamos capacitaciones adaptadas a las necesidades específicas de tu empresa o
-                            institución.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Cotización -->
-    <section id="cotizacion" class="cotizacion">
-        <div class="container">
-            <h2 class="section-title">Solicitar Cotización</h2>
-            <p class="section-subtitle">Dinos qué servicios necesitas</p>
-
-            <form class="cotizacion-form" id="cotizacionForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu nombre completo" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" placeholder="tu@email.com" required>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Empresa</label>
-                        <input type="text" placeholder="Nombre de la empresa">
-                    </div>
-                    <div class="form-group">
-                        <label>Teléfono</label>
-                        <input type="tel" placeholder="+56 9 XXXX XXXX">
-                    </div>
-                </div>
-
-                <div class="form-group full-width">
-                    <label>Servicios de Interés</label>
-                    <div class="checkbox-group">
-                        <label class="checkbox-item">
-                            <input type="checkbox" value="linea-base-terrestres">
-                            Línea Base de Invertebrados Terrestres
-                        </label>
-                        <label class="checkbox-item">
-                            <input type="checkbox" value="taxonomia-acuatica">
-                            Taxonomía de Invertebrados Acuáticos
-                        </label>
-                        <label class="checkbox-item">
-                            <input type="checkbox" value="charlas">
-                            Charlas y Capacitaciones
-                        </label>
-                        <label class="checkbox-item">
-                            <input type="checkbox" value="educacion">
-                            Educación Ambiental
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-group full-width">
-                    <label>Descripción del Proyecto</label>
-                    <textarea placeholder="Cuéntanos sobre tu proyecto, área de estudio, alcance, etc." rows="6"
-                        required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Enviar Cotización</button>
-                <div class="form-message" id="cotizacionMessage"></div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="contacto">
-        <div class="container">
-            <h2 class="section-title">Ponte en Contacto</h2>
-            <p class="section-subtitle">¿Tienes alguna pregunta? Nos gustaría saber de ti</p>
-
-            <div class="contacto-grid">
-                <div class="contacto-info">
-                    <div class="info-item">
-                        <div class="info-icon">👤</div>
-                        <div>
-                            <h3>Responsable</h3>
-                            <p>Luis E. Carrera Suárez<br><strong>Biólogo, especialista en invertebrados</strong></p>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-label">Sobre nosotros</span>
+                    <h2 class="section-title">Ciencia y pasión por el<br><span>medio ambiente</span></h2>
+                    <p class="about-lead">Fundada en 2018 por Luis E. Carrera Suárez, somos una empresa especializada en investigación ambiental con experiencia en estudios de línea base en sistemas terrestres y acuáticos continentales.</p>
+                    <p>Nuestro enfoque integra la investigación científica rigurosa con la educación ambiental, creando un puente entre el conocimiento especializado y la comunidad.</p>
+                    
+                    <div class="about-features stagger-children">
+                        <div class="feature-item" data-animate="fade-up">
+                            <div class="feature-icon">✓</div>
+                            <span>Metodología científica rigurosa</span>
+                        </div>
+                        <div class="feature-item" data-animate="fade-up">
+                            <div class="feature-icon">✓</div>
+                            <span>Equipo multidisciplinario</span>
+                        </div>
+                        <div class="feature-item" data-animate="fade-up">
+                            <div class="feature-icon">✓</div>
+                            <span>Compromiso con la sostenibilidad</span>
                         </div>
                     </div>
 
-                    <div class="info-item">
-                        <div class="info-icon">📧</div>
-                        <div>
-                            <h3>Email</h3>
-                            <p><a href="mailto:eleuiese@gmail.com">eleuiese@gmail.com</a></p>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon">📱</div>
-                        <div>
-                            <h3>Celular</h3>
-                            <p><a href="tel:+56997935170">+56 9 9793 5170</a></p>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon">🏢</div>
-                        <div>
-                            <h3>Empresa</h3>
-                            <p>Caminando Otro Sendero E.I.R.L<br>RUT: 76.932.987-0</p>
-                        </div>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/caminando_otro_sendero/" target="_blank" class="social-icon"
-                            aria-label="Instagram">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                            </svg>
-                        </a>
-                    </div>
+                    <a href="pages/sobre-nosotros.html" class="btn btn-outline" data-animate="fade-up" data-delay="4">Conocer nuestra historia</a>
                 </div>
-
-                <form class="contacto-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" placeholder="Tu nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Tu email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Asunto">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Tu mensaje" rows="6" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                    <div class="form-message" id="formMessage"></div>
-                </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- Stats Section -->
+    <section class="stats-section">
         <div class="container">
-            <p>&copy; 2024 Caminando Otro Sendero E.I.R.L - Todos los derechos reservados</p>
+            <div class="stats-grid" data-animate="fade-up">
+                <div class="stat-item">
+                    <span class="stat-value" data-counter="2018">0</span>
+                    <span class="stat-label">Año de Fundación</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-value" data-counter="50" data-prefix="+">0</span>
+                    <span class="stat-label">Proyectos Realizados</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-value" data-counter="1000" data-prefix="+">0</span>
+                    <span class="stat-label">Personas Capacitadas</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-value" data-counter="500" data-prefix="+">0</span>
+                    <span class="stat-label">Especies Identificadas</span>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
 
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/56997935170" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#ffffff">
-            <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+    <!-- Publications Section -->
+    <section id="publicaciones" class="publications-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Investigación</span>
+                <h2 class="section-title">Publicaciones<br><span>científicas</span></h2>
+            </div>
+
+            <div class="publications-grid stagger-children">
+                <article class="publication-card hover-lift" data-animate="fade-up">
+                    <div class="publication-year">2023</div>
+                    <div class="publication-content">
+                        <h3>Effects of an extreme drought on the feeding ecology of Bubo magellanicus</h3>
+                        <p class="publication-authors">Catchpole, Sam, Carrera-Suárez L.E y Reinaldo Vera</p>
+                        <a href="https://peerj.com/articles/15020/" class="btn-link" target="_blank">Leer artículo <span>↗</span></a>
+                    </div>
+                </article>
+
+                <article class="publication-card hover-lift" data-animate="fade-up">
+                    <div class="publication-year">2021</div>
+                    <div class="publication-content">
+                        <h3>Effects of electrofishing on tadpoles of Calyptocephalella gayi</h3>
+                        <p class="publication-authors">Carrera-Suárez L.E. & Catchpole, Sam - Boletín chileno de herpetología</p>
+                        <a href="#" class="btn-link" target="_blank">Leer artículo <span>↗</span></a>
+                    </div>
+                </article>
+
+                <article class="publication-card hover-lift" data-animate="fade-up">
+                    <div class="publication-year">2011</div>
+                    <div class="publication-content">
+                        <h3>Catálogo de los Noctuidae de la Isla Robinson Crusoe</h3>
+                        <p class="publication-authors">Carrera-Suárez L.E., T.S. Olivares & A.O. Angulo</p>
+                        <a href="#" class="btn-link" target="_blank">Leer artículo <span>↗</span></a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="section-cta">
+                <a href="pages/blog.html" class="btn btn-outline">Ver todas las publicaciones</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>¿Tienes un proyecto en mente?</h2>
+                    <p>Conversemos sobre cómo podemos ayudarte con tu estudio ambiental o proyecto de educación.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="pages/contacto.html" class="btn btn-primary btn-large">Solicitar cotización</a>
+                    <a href="https://wa.me/56997935170" class="btn btn-whatsapp" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                        </svg>
+                        WhatsApp directo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/56997935170" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
         </svg>
     </a>
 
+    <script src="js/config.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/animations.js"></script>
     <script src="script.js"></script>
 </body>
 

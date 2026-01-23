@@ -1,0 +1,502 @@
+/* ==========================================================================
+   SISTEMA DE ANIMACIONES PROFESIONALES
+   ========================================================================== */
+
+/* Variables de animación */
+:root {
+    --animation-duration: 0.6s;
+    --animation-duration-fast: 0.3s;
+    --animation-duration-slow: 0.8s;
+    --animation-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --animation-easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --animation-delay-step: 0.1s;
+}
+
+/* ==========================================================================
+   Animaciones Base - Estados Iniciales
+   ========================================================================== */
+
+/* Fade In Up */
+[data-animate="fade-up"] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="fade-up"].animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade In Down */
+[data-animate="fade-down"] {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="fade-down"].animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade In Left */
+[data-animate="fade-left"] {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="fade-left"].animated {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Fade In Right */
+[data-animate="fade-right"] {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="fade-right"].animated {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Fade In */
+[data-animate="fade"] {
+    opacity: 0;
+    transition: opacity var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="fade"].animated {
+    opacity: 1;
+}
+
+/* Scale Up */
+[data-animate="scale-up"] {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="scale-up"].animated {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Scale Down */
+[data-animate="scale-down"] {
+    opacity: 0;
+    transform: scale(1.1);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="scale-down"].animated {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Zoom In */
+[data-animate="zoom-in"] {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity var(--animation-duration-slow) var(--animation-easing),
+                transform var(--animation-duration-slow) var(--animation-easing-bounce);
+}
+
+[data-animate="zoom-in"].animated {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Flip In */
+[data-animate="flip"] {
+    opacity: 0;
+    transform: perspective(400px) rotateY(90deg);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="flip"].animated {
+    opacity: 1;
+    transform: perspective(400px) rotateY(0);
+}
+
+/* Slide Up */
+[data-animate="slide-up"] {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity var(--animation-duration) var(--animation-easing),
+                transform var(--animation-duration) var(--animation-easing);
+}
+
+[data-animate="slide-up"].animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ==========================================================================
+   Delays para animaciones en secuencia
+   ========================================================================== */
+
+[data-delay="1"] { transition-delay: 0.1s; }
+[data-delay="2"] { transition-delay: 0.2s; }
+[data-delay="3"] { transition-delay: 0.3s; }
+[data-delay="4"] { transition-delay: 0.4s; }
+[data-delay="5"] { transition-delay: 0.5s; }
+[data-delay="6"] { transition-delay: 0.6s; }
+[data-delay="7"] { transition-delay: 0.7s; }
+[data-delay="8"] { transition-delay: 0.8s; }
+
+/* ==========================================================================
+   Animaciones Keyframes
+   ========================================================================== */
+
+/* Pulse */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Float */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Shake */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.animate-shake {
+    animation: shake 0.6s ease-in-out;
+}
+
+/* Bounce */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+.animate-bounce {
+    animation: bounce 1s ease infinite;
+}
+
+/* Spin */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Glow */
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(26, 77, 46, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(26, 77, 46, 0.6); }
+}
+
+.animate-glow {
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* Shimmer */
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* ==========================================================================
+   Hover Animations
+   ========================================================================== */
+
+/* Hover Lift */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Scale */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Hover Glow */
+.hover-glow {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 30px rgba(26, 77, 46, 0.4);
+}
+
+/* Hover Rotate */
+.hover-rotate {
+    transition: transform 0.3s ease;
+}
+
+.hover-rotate:hover {
+    transform: rotate(5deg);
+}
+
+/* ==========================================================================
+   Animaciones de Texto
+   ========================================================================== */
+
+/* Typewriter effect placeholder */
+.typewriter {
+    overflow: hidden;
+    border-right: 2px solid var(--color-primary, #1a4d2e);
+    white-space: nowrap;
+    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+/* Text Gradient Animation */
+.text-gradient-animated {
+    background: linear-gradient(90deg, #1a4d2e, #40916c, #1a4d2e);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+}
+
+/* ==========================================================================
+   Animaciones de Números/Contadores
+   ========================================================================== */
+
+.counter-animate {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.counter-animate.counting {
+    animation: countPulse 0.3s ease;
+}
+
+@keyframes countPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* ==========================================================================
+   Animaciones de Carga
+   ========================================================================== */
+
+/* Skeleton Loading */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ==========================================================================
+   Animaciones de Página
+   ========================================================================== */
+
+/* Page Fade In */
+.page-transition {
+    animation: pageFadeIn 0.5s ease-out;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==========================================================================
+   Hero Específico
+   ========================================================================== */
+
+.hero-content [data-animate] {
+    --animation-duration: 0.8s;
+}
+
+.hero-badge[data-animate] {
+    transition-delay: 0.2s;
+}
+
+.hero-title[data-animate] {
+    transition-delay: 0.4s;
+}
+
+.hero-subtitle[data-animate] {
+    transition-delay: 0.6s;
+}
+
+.hero-buttons[data-animate] {
+    transition-delay: 0.8s;
+}
+
+/* ==========================================================================
+   Stagger Children Animation
+   ========================================================================== */
+
+.stagger-children > *:nth-child(1) { transition-delay: 0s; }
+.stagger-children > *:nth-child(2) { transition-delay: 0.1s; }
+.stagger-children > *:nth-child(3) { transition-delay: 0.2s; }
+.stagger-children > *:nth-child(4) { transition-delay: 0.3s; }
+.stagger-children > *:nth-child(5) { transition-delay: 0.4s; }
+.stagger-children > *:nth-child(6) { transition-delay: 0.5s; }
+.stagger-children > *:nth-child(7) { transition-delay: 0.6s; }
+.stagger-children > *:nth-child(8) { transition-delay: 0.7s; }
+
+/* ==========================================================================
+   Responsive - Reducir animaciones en dispositivos con preferencia
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    [data-animate] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
+/* ==========================================================================
+   Scroll Progress Bar
+   ========================================================================== */
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary, #1a4d2e), var(--color-accent, #40916c));
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+}
+
+/* ==========================================================================
+   Parallax Effect Placeholder
+   ========================================================================== */
+
+.parallax {
+    will-change: transform;
+}
+
+/* ==========================================================================
+   Card Flip Animation
+   ========================================================================== */
+
+.flip-card {
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+/* ==========================================================================
+   Ripple Effect
+   ========================================================================== */
+
+.ripple {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.3) 10%, transparent 10%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.ripple:active::after {
+    transform: scale(0);
+    opacity: 1;
+    transition: 0s;
+}

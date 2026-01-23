@@ -2,21 +2,82 @@
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
+    const navDropdowns = document.querySelectorAll('.nav-dropdown');
 
-    hamburger.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
+    // Toggle del menú hamburguesa
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    }
+
+    // Cerrar menú al hacer click fuera
+    document.addEventListener('click', (e) => {
+        if (navMenu && navMenu.classList.contains('active')) {
+            if (!e.target.closest('.nav-menu') && !e.target.closest('.hamburger')) {
+                navMenu.classList.remove('active');
+                if (hamburger) hamburger.classList.remove('active');
+            }
+        }
     });
 
-    // Cerrar menú al hacer click en un link
-    document.querySelectorAll('.nav-link').forEach(link => {
+    // Cerrar menú al hacer click en un link (excepto dropdown toggle)
+    document.querySelectorAll('.nav-menu a:not(.dropdown-toggle)').forEach(link => {
         link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
+            if (navMenu) navMenu.classList.remove('active');
+            if (hamburger) hamburger.classList.remove('active');
         });
+    });
+
+    // Dropdown en móvil - toggle con click
+    navDropdowns.forEach(dropdown => {
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        if (toggle) {
+            toggle.addEventListener('click', (e) => {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    // Cerrar otros dropdowns
+                    navDropdowns.forEach(d => {
+                        if (d !== dropdown) d.classList.remove('open');
+                    });
+                    dropdown.classList.toggle('open');
+                }
+            });
+        }
     });
 
     // ===== CARRUSEL DE IMÁGENES =====
     initCarousel();
+    
+    // ===== FAQ ACCORDION =====
+    initFAQ();
 });
+
+// FAQ Accordion
+function initFAQ() {
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        if (question) {
+            question.addEventListener('click', () => {
+                // Cerrar otros items abiertos
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle el item actual
+                item.classList.toggle('active');
+            });
+        }
+    });
+}
 
 // Carrusel automático
 function initCarousel() {
@@ -111,10 +172,12 @@ const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     
-    if (scrollTop > 100) {
-        navbar.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.15)';
-    } else {
-        navbar.style.boxShadow = 'var(--shadow)';
+    if (navbar) {
+        if (scrollTop > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
     }
     
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
@@ -357,58 +420,6 @@ function debounce(func, wait) {
     };
 }
 
-// ===== SCROLL TO TOP BUTTON =====
-const scrollToTopBtn = document.createElement('button');
-scrollToTopBtn.textContent = '↑';
-scrollToTopBtn.className = 'scroll-to-top';
-scrollToTopBtn.style.cssText = `
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: #27ae60;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    z-index: 999;
-`;
-
-document.body.appendChild(scrollToTopBtn);
-
-window.addEventListener('scroll', debounce(() => {
-    if (window.pageYOffset > 300) {
-        scrollToTopBtn.style.display = 'flex';
-    } else {
-        scrollToTopBtn.style.display = 'none';
-    }
-}, 100));
-
-scrollToTopBtn.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
-
-scrollToTopBtn.addEventListener('mouseenter', () => {
-    scrollToTopBtn.style.backgroundColor = '#f39c12';
-    scrollToTopBtn.style.transform = 'scale(1.1)';
-});
-
-scrollToTopBtn.addEventListener('mouseleave', () => {
-    scrollToTopBtn.style.backgroundColor = '#27ae60';
-    scrollToTopBtn.style.transform = 'scale(1)';
-});
-
 // ===== EFECTO HOVER EN TIMELINE =====
 document.querySelectorAll('.timeline-content').forEach(item => {
     item.addEventListener('mouseenter', () => {
@@ -509,3 +520,21 @@ if (cotizacionForm) {
 }
 
 console.log('✨ Página cargada exitosamente - Caminando Otro Sendero');
+
+// ===== FAQ INTERACTIVO =====
+document.querySelectorAll('.faq-question').forEach(button => {
+    button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        
+        // Cerrar todos los demás
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        
+        // Abrir el actual si no estaba abierto
+        if (!isActive) {
+            faqItem.classList.add('active');
+        }
+    });
+});
