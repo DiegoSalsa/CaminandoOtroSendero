@@ -4636,12 +4636,21 @@ select:focus-visible {
 .coming-soon-content {
     text-align: center;
     max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .coming-soon-icon {
-    font-size: 5rem;
     margin-bottom: var(--space-xl);
+    color: var(--color-primary);
     animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.coming-soon-icon svg {
+    width: 80px;
+    height: 80px;
 }
 
 .coming-soon-content h1 {
@@ -4687,7 +4696,15 @@ select:focus-visible {
 }
 
 .coming-soon-feature .feature-icon {
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+}
+
+.coming-soon-feature .feature-icon svg {
+    width: 24px;
+    height: 24px;
 }
 
 .coming-soon-feature span:last-child {
