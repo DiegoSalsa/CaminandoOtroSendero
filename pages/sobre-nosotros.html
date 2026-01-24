@@ -7,7 +7,7 @@
     <title>Sobre Nosotros | Caminando Otro Sendero</title>
     <meta name="description"
         content="Conoce la historia, misión y equipo de Caminando Otro Sendero. Consultoría ambiental desde 2018.">
-    <link rel="icon" type="image/png" href="../Favicon.png">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -18,12 +18,23 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-leaf">🌿</div>
+            <span class="preloader-text">Cargando...</span>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <div id="header-container"></div>
 
     <!-- Hero Section Mejorado -->
     <section class="about-hero">
         <div class="about-hero-bg">
-            <img src="../images/header2.jpg" alt="Naturaleza">
+            <img src="../assets/header2.jpg" alt="Naturaleza">
             <div class="about-hero-overlay"></div>
         </div>
         <div class="container">
@@ -71,10 +82,10 @@
                 </div>
                 <div class="story-visual" data-animate="fade-left">
                     <div class="story-image-main">
-                        <img src="../images/header1.jpg" alt="Trabajo de campo">
+                        <img src="../assets/header1.jpg" alt="Trabajo de campo">
                     </div>
                     <div class="story-image-accent">
-                        <img src="../images/header4.jpg" alt="Educación ambiental">
+                        <img src="../assets/header4.jpg" alt="Educación ambiental">
                     </div>
                 </div>
             </div>
@@ -160,7 +171,7 @@
                 </div>
             </div>
             <div class="features-visual" data-animate="fade-left">
-                <img src="../images/header3.jpg" alt="Nuestro trabajo">
+                <img src="../assets/header3.jpg" alt="Nuestro trabajo">
             </div>
         </div>
     </section>

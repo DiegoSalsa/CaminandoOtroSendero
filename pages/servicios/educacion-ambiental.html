@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educación Ambiental | Caminando Otro Sendero</title>
     <meta name="description" content="Programas educativos para fomentar la conciencia ambiental. Talleres, caminatas guiadas y actividades experienciales en la naturaleza.">
-    <link rel="icon" type="image/png" href="../../Favicon.png">
+    <link rel="icon" type="image/png" href="../../assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,12 +16,23 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-leaf">🌿</div>
+            <span class="preloader-text">Cargando...</span>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <div id="header-container"></div>
 
     <!-- Hero del Servicio -->
     <section class="service-hero service-hero--education">
         <div class="service-hero-bg">
-            <img src="../../images/header4.jpg" alt="Educación ambiental">
+            <img src="../../assets/header4.jpg" alt="Educación ambiental">
             <div class="service-hero-overlay service-hero-overlay--green"></div>
         </div>
         <div class="container">
@@ -84,7 +95,7 @@
             <div class="programs-grid stagger-children">
                 <div class="program-card">
                     <div class="program-image">
-                        <img src="../../images/header1.jpg" alt="Caminata naturalista">
+                        <img src="../../assets/header1.jpg" alt="Caminata naturalista">
                         <div class="program-overlay">
                             <span class="program-duration">2-4 horas</span>
                         </div>
@@ -103,7 +114,7 @@
 
                 <div class="program-card">
                     <div class="program-image">
-                        <img src="../../images/header2.jpg" alt="Taller de ecología">
+                        <img src="../../assets/header2.jpg" alt="Taller de ecología">
                         <div class="program-overlay">
                             <span class="program-duration">3-6 horas</span>
                         </div>
@@ -122,7 +133,7 @@
 
                 <div class="program-card">
                     <div class="program-image">
-                        <img src="../../images/header3.jpg" alt="Programa escolar">
+                        <img src="../../assets/header3.jpg" alt="Programa escolar">
                         <div class="program-overlay">
                             <span class="program-duration">Semestral</span>
                         </div>
@@ -141,7 +152,7 @@
 
                 <div class="program-card program-card--wide">
                     <div class="program-image">
-                        <img src="../../images/header4.jpg" alt="Charlas corporativas">
+                        <img src="../../assets/header4.jpg" alt="Charlas corporativas">
                         <div class="program-overlay">
                             <span class="program-duration">1-2 horas</span>
                         </div>
@@ -193,10 +204,10 @@
                 </div>
                 <div class="philosophy-images" data-animate="fade-left">
                     <div class="philosophy-img philosophy-img--1">
-                        <img src="../../images/header1.jpg" alt="Naturaleza">
+                        <img src="../../assets/header1.jpg" alt="Naturaleza">
                     </div>
                     <div class="philosophy-img philosophy-img--2">
-                        <img src="../../images/header2.jpg" alt="Educación">
+                        <img src="../../assets/header2.jpg" alt="Educación">
                     </div>
                 </div>
             </div>

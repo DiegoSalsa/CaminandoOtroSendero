@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Línea Base Terrestre | Caminando Otro Sendero</title>
     <meta name="description" content="Estudios especializados de línea base de invertebrados terrestres para EIA y DIA. Metodología científica rigurosa.">
-    <link rel="icon" type="image/png" href="../../Favicon.png">
+    <link rel="icon" type="image/png" href="../../assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,12 +16,23 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-leaf">🌿</div>
+            <span class="preloader-text">Cargando...</span>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <div id="header-container"></div>
 
     <!-- Hero del Servicio -->
     <section class="service-hero">
         <div class="service-hero-bg">
-            <img src="../../images/header1.jpg" alt="Trabajo de campo">
+            <img src="../../assets/header1.jpg" alt="Trabajo de campo">
             <div class="service-hero-overlay"></div>
         </div>
         <div class="container">
@@ -160,7 +171,7 @@
                     </ul>
                 </div>
                 <div class="methodology-image" data-animate="fade-left">
-                    <img src="../../images/header2.jpg" alt="Metodología de campo">
+                    <img src="../../assets/header2.jpg" alt="Metodología de campo">
                 </div>
             </div>
         </div>

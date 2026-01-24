@@ -65,15 +65,36 @@ python -m http.server 8000
 ```
 CaminandoOtroSendero/
 ├── index.html              # Página principal
-├── styles.css              # Estilos y animaciones
-├── script.js               # JavaScript interactivo
-├── Favicon.png            # Favicon del sitio
-├── README_IMAGENES.md     # Guía para agregar imágenes
-├── images/
-│   ├── Logo.png           # Logo de la empresa
-│   ├── header1.jpg        # Imagen del carrusel
-│   └── header2.jpg        # (Agregar más según necesario)
-└── README.md              # Este archivo
+├── styles.css              # Estilos globales
+├── script.js               # JavaScript principal
+├── package.json            # Dependencias npm
+├── README.md               # Documentación
+├── assets/                 # Recursos estáticos
+│   ├── logo.png            # Logo de la empresa
+│   ├── favicon.png         # Favicon del sitio
+│   ├── header1.jpg         # Imágenes del carrusel
+│   ├── header2.jpg
+│   ├── header3.jpg
+│   ├── header4.jpg
+│   └── icons/              # Iconos SVG
+├── css/                    # Estilos adicionales
+│   ├── about-page.css
+│   ├── animations.css
+│   └── icons.css
+├── js/                     # JavaScript modular
+│   ├── components.js       # Header y Footer
+│   ├── config.js           # Configuración
+│   ├── icons.js
+│   └── animations.js
+└── pages/                  # Páginas secundarias
+    ├── contacto.html
+    ├── servicios.html
+    ├── sobre-nosotros.html
+    └── servicios/          # Subpáginas de servicios
+        ├── linea-base-terrestre.html
+        ├── taxonomia-acuatica.html
+        ├── capacitaciones.html
+        └── educacion-ambiental.html
 ```
 
 ## 🎨 Personalización de Colores

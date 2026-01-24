@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../css/icons.css">
     <link rel="stylesheet" href="../css/animations.css">
-    <link rel="icon" type="image/png" href="../Favicon.png">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-leaf">🌿</div>
+            <span class="preloader-text">Cargando...</span>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <header id="header-placeholder"></header>
 
     <main>
         <!-- Hero Section -->
         <section class="services-hero">
             <div class="services-hero-bg">
-                <img src="../images/header3.jpg" alt="Servicios ambientales">
+                <img src="../assets/header3.jpg" alt="Servicios ambientales">
                 <div class="services-hero-overlay"></div>
             </div>
             <div class="container">
@@ -64,7 +75,7 @@
                     <!-- Servicio 1: Línea Base Terrestre -->
                     <article class="service-card service-card--featured hover-lift" data-animate="fade-up">
                         <div class="service-card-image">
-                            <img src="../images/header1.jpg" alt="Línea Base Terrestre">
+                            <img src="../assets/header1.jpg" alt="Línea Base Terrestre">
                             <div class="service-card-overlay"></div>
                             <span class="service-card-number">01</span>
                         </div>
@@ -95,7 +106,7 @@
                     <!-- Servicio 2: Taxonomía Acuática -->
                     <article class="service-card service-card--featured hover-lift" data-animate="fade-up" data-delay="1">
                         <div class="service-card-image">
-                            <img src="../images/header2.jpg" alt="Taxonomía Acuática">
+                            <img src="../assets/header2.jpg" alt="Taxonomía Acuática">
                             <div class="service-card-overlay"></div>
                             <span class="service-card-number">02</span>
                         </div>
@@ -126,7 +137,7 @@
                     <!-- Servicio 3: Capacitaciones -->
                     <article class="service-card service-card--featured hover-lift" data-animate="fade-up" data-delay="2">
                         <div class="service-card-image">
-                            <img src="../images/header3.jpg" alt="Capacitaciones">
+                            <img src="../assets/header3.jpg" alt="Capacitaciones">
                             <div class="service-card-overlay"></div>
                             <span class="service-card-number">03</span>
                         </div>
@@ -157,7 +168,7 @@
                     <!-- Servicio 4: Educación Ambiental -->
                     <article class="service-card service-card--featured hover-lift" data-animate="fade-up" data-delay="3">
                         <div class="service-card-image">
-                            <img src="../images/header4.jpg" alt="Educación Ambiental">
+                            <img src="../assets/header4.jpg" alt="Educación Ambiental">
                             <div class="service-card-overlay"></div>
                             <span class="service-card-number">04</span>
                         </div>
@@ -235,7 +246,7 @@
         <!-- CTA Section -->
         <section class="services-cta">
             <div class="services-cta-bg">
-                <img src="../images/header1.jpg" alt="Contacto">
+                <img src="../assets/header1.jpg" alt="Contacto">
                 <div class="services-cta-overlay"></div>
             </div>
             <div class="container">

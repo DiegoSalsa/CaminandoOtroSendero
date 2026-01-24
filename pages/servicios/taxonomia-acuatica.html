@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taxonomía Acuática | Caminando Otro Sendero</title>
     <meta name="description" content="Análisis taxonómico especializado de ecosistemas acuáticos continentales y salares. Estudios de calidad de agua y biodiversidad.">
-    <link rel="icon" type="image/png" href="../../Favicon.png">
+    <link rel="icon" type="image/png" href="../../assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,12 +16,23 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-leaf">🌿</div>
+            <span class="preloader-text">Cargando...</span>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
     <div id="header-container"></div>
 
     <!-- Hero del Servicio -->
     <section class="service-hero service-hero--aquatic">
         <div class="service-hero-bg">
-            <img src="../../images/header3.jpg" alt="Ecosistema acuático">
+            <img src="../../assets/header3.jpg" alt="Ecosistema acuático">
             <div class="service-hero-overlay"></div>
         </div>
         <div class="container">
@@ -187,7 +198,7 @@
                     </div>
                 </div>
                 <div class="applications-image" data-animate="fade-left">
-                    <img src="../../images/header4.jpg" alt="Análisis de muestras">
+                    <img src="../../assets/header4.jpg" alt="Análisis de muestras">
                 </div>
             </div>
         </div>

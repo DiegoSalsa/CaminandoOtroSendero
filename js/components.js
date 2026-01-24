@@ -10,7 +10,7 @@ class Header {
                 <div class="nav-container">
                     <div class="logo">
                         <a href="${this.basePath}index.html">
-                            <img src="${this.basePath}images/Logo.png" alt="Logo Caminando Otro Sendero" class="logo-img">
+                            <img src="${this.basePath}assets/logo.png" alt="Logo Caminando Otro Sendero" class="logo-img">
                         </a>
                     </div>
                     <ul class="nav-menu" id="navMenu">
@@ -59,7 +59,7 @@ class Footer {
                     <div class="container">
                         <div class="footer-grid">
                             <div class="footer-brand">
-                                <img src="${this.basePath}images/Logo.png" alt="Logo" class="footer-logo">
+                                <img src="${this.basePath}assets/logo.png" alt="Logo" class="footer-logo">
                                 <p class="footer-desc">${this.config.company.description}</p>
                             </div>
                             <div class="footer-links">
