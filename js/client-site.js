@@ -60,24 +60,47 @@
             dot.classList.toggle('active', isActive);
             dot.setAttribute('aria-current', isActive ? 'true' : 'false');
         });
+        if (slides.length > 1) {
+            window.setTimeout(() => loadSlide((activeSlide + 1) % slides.length), 180);
+        }
     };
 
     const stopCarousel = () => window.clearInterval(carouselTimer);
     const startCarousel = () => {
         stopCarousel();
         if (!reducedMotion && slides.length > 1) {
-            carouselTimer = window.setInterval(() => showSlide(activeSlide + 1), 6500);
+            carouselTimer = window.setInterval(() => showSlide(activeSlide + 1), 5200);
         }
     };
 
     previousButton?.addEventListener('click', () => { showSlide(activeSlide - 1); startCarousel(); });
     nextButton?.addEventListener('click', () => { showSlide(activeSlide + 1); startCarousel(); });
     dots.forEach((dot, index) => dot.addEventListener('click', () => { showSlide(index); startCarousel(); }));
-    hero?.addEventListener('mouseenter', stopCarousel);
-    hero?.addEventListener('mouseleave', startCarousel);
+    const hoverDevice = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if (hoverDevice) {
+        hero?.addEventListener('mouseenter', stopCarousel);
+        hero?.addEventListener('mouseleave', startCarousel);
+    }
     hero?.addEventListener('focusin', stopCarousel);
     hero?.addEventListener('focusout', startCarousel);
     document.addEventListener('visibilitychange', () => document.hidden ? stopCarousel() : startCarousel());
+    window.addEventListener('pageshow', startCarousel);
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+    hero?.addEventListener('touchstart', (event) => {
+        const touch = event.changedTouches[0];
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+    }, { passive: true });
+    hero?.addEventListener('touchend', (event) => {
+        const touch = event.changedTouches[0];
+        const deltaX = touch.clientX - touchStartX;
+        const deltaY = touch.clientY - touchStartY;
+        if (Math.abs(deltaX) < 45 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
+        showSlide(activeSlide + (deltaX < 0 ? 1 : -1));
+        startCarousel();
+    }, { passive: true });
     startCarousel();
     const loadNextSlide = () => loadSlide((activeSlide + 1) % slides.length);
     if ('requestIdleCallback' in window) {

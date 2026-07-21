@@ -576,7 +576,11 @@ p { margin-bottom: 20px; }
     .hero h1 { font-size: 3.55rem; }
     .hero-lead { font-size: 1rem; }
     .hero-actions { flex-direction: column; align-items: stretch; max-width: 330px; }
-    .slider-controls { display: none; }
+    .slider-controls { right: 50%; bottom: 15px; display: flex; transform: translateX(50%); }
+    .slider-arrow { display: none; }
+    .slider-dots { gap: 7px; border-radius: 999px; padding: 8px 10px; background: rgba(19, 32, 24, .4); }
+    .slider-dots button { width: 7px; height: 7px; }
+    .slider-dots button.active { width: 22px; }
     .about-media > img { min-height: 430px; border-radius: 150px 150px var(--radius) var(--radius); }
     .year-badge { right: -4px; bottom: 18px; width: 128px; min-height: 118px; padding: 18px; }
     .year-badge strong { font-size: 1.7rem; }
