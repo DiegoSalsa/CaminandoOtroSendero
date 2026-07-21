@@ -1,7 +1,7 @@
 {
   "name": "caminando-otro-sendero",
   "version": "1.0.0",
-  "description": "Landing page for Caminando Otro Sendero",
+  "description": "Sitio web corporativo de Caminando Otro Sendero",
   "scripts": {
     "dev": "npx -y serve ."
   },

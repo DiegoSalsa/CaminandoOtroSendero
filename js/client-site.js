@@ -37,9 +37,23 @@
     let activeSlide = 0;
     let carouselTimer;
 
+    const loadSlide = (index) => {
+        const slide = slides[index];
+        if (!slide) return;
+        slide.querySelectorAll('[data-srcset]').forEach((source) => {
+            source.srcset = source.dataset.srcset;
+            source.removeAttribute('data-srcset');
+        });
+        slide.querySelectorAll('img[data-src]').forEach((image) => {
+            image.src = image.dataset.src;
+            image.removeAttribute('data-src');
+        });
+    };
+
     const showSlide = (index) => {
         if (!slides.length) return;
         activeSlide = (index + slides.length) % slides.length;
+        loadSlide(activeSlide);
         slides.forEach((slide, slideIndex) => slide.classList.toggle('active', slideIndex === activeSlide));
         dots.forEach((dot, dotIndex) => {
             const isActive = dotIndex === activeSlide;
@@ -65,6 +79,12 @@
     hero?.addEventListener('focusout', startCarousel);
     document.addEventListener('visibilitychange', () => document.hidden ? stopCarousel() : startCarousel());
     startCarousel();
+    const loadNextSlide = () => loadSlide((activeSlide + 1) % slides.length);
+    if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadNextSlide, { timeout: 2500 });
+    } else {
+        window.setTimeout(loadNextSlide, 1200);
+    }
 
     // Aparición suave al entrar al viewport
     const revealElements = document.querySelectorAll('.reveal');
@@ -122,7 +142,7 @@
         item.addEventListener('click', () => {
             const image = item.querySelector('img');
             if (!image || !lightbox || !lightboxImage || !lightboxCaption) return;
-            lightboxImage.src = image.currentSrc || image.src;
+            lightboxImage.src = item.dataset.full || image.currentSrc || image.src;
             lightboxImage.alt = image.alt;
             lightboxCaption.textContent = image.alt;
             lightbox.showModal();

@@ -6,14 +6,50 @@
     <title>Caminando Otro Sendero | Consultoría ambiental en Chile</title>
     <meta name="description" content="Empresa chilena de consultoría ambiental, investigación científica y educación ambiental. Estudios de línea base, monitoreos e identificación taxonómica.">
     <meta name="author" content="Caminando Otro Sendero E.I.R.L">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="geo.region" content="CL">
     <meta name="theme-color" content="#203525">
+    <link rel="canonical" href="index.html">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preload" as="image" href="assets/optimized/hero-field-mobile.webp" media="(max-width: 600px)" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/optimized/hero-field-desktop.webp" media="(min-width: 601px)" fetchpriority="high">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/client/favicon-32.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/client/favicon-512.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/client/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/client-redesign.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "#organization",
+          "name": "Caminando Otro Sendero",
+          "legalName": "Caminando Otro Sendero E.I.R.L",
+          "foundingDate": "2018",
+          "description": "Empresa chilena de consultoría, investigación científica y educación ambiental.",
+          "email": "eleuiese@gmail.com",
+          "telephone": "+56 9 9793 5170",
+          "logo": "assets/client/favicon-512.png",
+          "image": "assets/optimized/hero-field-desktop.webp",
+          "sameAs": ["https://www.instagram.com/caminando_otro_sendero/"],
+          "founder": {"@type": "Person", "name": "Luis E. Carrera Suárez", "jobTitle": "Biólogo y consultor ambiental"},
+          "areaServed": {"@type": "Country", "name": "Chile"},
+          "knowsAbout": ["Consultoría ambiental", "Sistema de Evaluación de Impacto Ambiental", "Líneas base de fauna", "Monitoreo de biodiversidad", "Taxonomía de invertebrados", "Educación ambiental"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "#website",
+          "name": "Caminando Otro Sendero",
+          "inLanguage": "es-CL",
+          "publisher": {"@id": "#organization"}
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -21,7 +57,7 @@
     <header class="site-header">
         <div class="header-inner">
             <a class="brand" href="index.html" aria-label="Caminando Otro Sendero, inicio">
-                <img src="assets/client/logo.png" alt="Caminando Otro Sendero">
+                <img src="assets/optimized/logo.webp" width="264" height="247" alt="Caminando Otro Sendero">
             </a>
             <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú"><span></span><span></span><span></span></button>
             <nav aria-label="Navegación principal">
@@ -40,9 +76,9 @@
     <main id="contenido">
         <section class="hero" aria-label="Presentación">
             <div class="hero-slider" aria-live="polite">
-                <div class="hero-slide active"><img src="assets/client/hero-field.jpg" alt="Profesional realizando muestreo de fauna en un ecosistema altiplánico"></div>
-                <div class="hero-slide"><img src="assets/client/hero-insect.jpg" alt="Insecto observado en su ambiente natural"></div>
-                <div class="hero-slide"><img src="assets/client/hero-team.jpg" alt="Equipo profesional trabajando en terreno en el altiplano"></div>
+                <div class="hero-slide active"><picture><source media="(max-width: 600px)" srcset="assets/optimized/hero-field-mobile.webp"><img src="assets/optimized/hero-field-desktop.webp" width="1600" height="900" fetchpriority="high" decoding="async" alt="Profesional realizando muestreo de fauna en un ecosistema altiplánico"></picture></div>
+                <div class="hero-slide"><picture><source media="(max-width: 600px)" data-srcset="assets/optimized/hero-insect-mobile.webp"><img data-src="assets/optimized/hero-insect-desktop.webp" width="1600" height="900" decoding="async" alt="Insecto observado en su ambiente natural"></picture></div>
+                <div class="hero-slide"><picture><source media="(max-width: 600px)" data-srcset="assets/optimized/hero-team-mobile.webp"><img data-src="assets/optimized/hero-team-desktop.webp" width="1600" height="900" decoding="async" alt="Equipo profesional trabajando en terreno en el altiplano"></picture></div>
                 <div class="hero-shade"></div>
             </div>
             <div class="hero-content">
@@ -70,7 +106,7 @@
 
         <section class="section corporate-overview">
             <div class="container corporate-overview-grid">
-                <div class="overview-image reveal"><img src="assets/client/about-field.jpg" alt="Profesionales realizando muestreo entomológico en terreno"><span class="image-caption">Trabajo de campo · Chile</span></div>
+                <div class="overview-image reveal"><picture><source media="(max-width: 800px)" srcset="assets/optimized/content-about-mobile.webp"><img src="assets/optimized/content-about.webp" width="1200" height="675" loading="lazy" decoding="async" alt="Profesionales realizando muestreo entomológico en terreno"></picture><span class="image-caption">Trabajo de campo · Chile</span></div>
                 <div class="overview-copy reveal">
                     <p class="eyebrow">Nuestra empresa</p>
                     <h2>Rigor científico para decisiones ambientales responsables.</h2>
@@ -99,7 +135,7 @@
 
         <section class="section home-research">
             <div class="container home-research-grid">
-                <div class="research-visual reveal"><img src="assets/client/publications-field.jpeg" alt="Investigación científica en un bosque templado"></div>
+                <div class="research-visual reveal"><picture><source media="(max-width: 800px)" srcset="assets/optimized/content-publications-mobile.webp"><img src="assets/optimized/content-publications.webp" width="900" height="1200" loading="lazy" decoding="async" alt="Investigación científica en un bosque templado"></picture></div>
                 <div class="research-copy reveal">
                     <p class="eyebrow light">Investigación</p>
                     <h2>Conocimiento que fortalece nuestro trabajo.</h2>
@@ -118,12 +154,12 @@
             <div class="container">
                 <div class="section-heading reveal"><p class="eyebrow">Confían en nuestro trabajo</p><h2 id="clientes-title">Clientes</h2></div>
                 <div class="client-grid reveal">
-                    <div class="client-logo"><img src="cliente/cliente1.png" alt="Pares & Álvarez Ingeniería y Proyectos" loading="lazy"></div>
-                    <div class="client-logo dark-logo"><img src="cliente/cliente2.png" alt="Geobiota, parte de SLR" loading="lazy"></div>
-                    <div class="client-logo blue-logo"><img src="cliente/cliente3.png" alt="CEA Centro de Ecología Aplicada" loading="lazy"></div>
-                    <div class="client-logo"><img src="cliente/cliente6.png" alt="Cabaltue Ambiente y Desarrollo" loading="lazy"></div>
-                    <div class="client-logo"><img src="cliente/cliente5.png" alt="Catchpole y Asociados Consultoría e Investigación" loading="lazy"></div>
-                    <div class="client-logo"><img src="cliente/cliente4.png" alt="MHO Consultores" loading="lazy"></div>
+                    <div class="client-logo"><img src="cliente/cliente1.png" width="512" height="256" alt="Pares & Álvarez Ingeniería y Proyectos" loading="lazy" decoding="async"></div>
+                    <div class="client-logo dark-logo"><img src="cliente/cliente2.png" width="512" height="218" alt="Geobiota, parte de SLR" loading="lazy" decoding="async"></div>
+                    <div class="client-logo blue-logo"><img src="cliente/cliente3.png" width="512" height="212" alt="CEA Centro de Ecología Aplicada" loading="lazy" decoding="async"></div>
+                    <div class="client-logo"><img src="cliente/cliente6.png" width="512" height="282" alt="Cabaltue Ambiente y Desarrollo" loading="lazy" decoding="async"></div>
+                    <div class="client-logo"><img src="cliente/cliente5.png" width="500" height="313" alt="Catchpole y Asociados Consultoría e Investigación" loading="lazy" decoding="async"></div>
+                    <div class="client-logo"><img src="cliente/cliente4.png" width="200" height="200" alt="MHO Consultores" loading="lazy" decoding="async"></div>
                 </div>
             </div>
         </section>
@@ -138,7 +174,7 @@
 
     <footer class="site-footer">
         <div class="container footer-grid">
-            <img class="footer-logo" src="assets/client/logo.png" alt="Caminando Otro Sendero">
+            <img class="footer-logo" src="assets/optimized/logo.webp" width="264" height="247" alt="Caminando Otro Sendero" loading="lazy" decoding="async">
             <p>Consultoría, investigación y educación ambiental.</p>
             <nav aria-label="Navegación del pie"><a href="pages/sobre-nosotros.html">Nosotros</a><a href="pages/servicios.html">Servicios</a><a href="pages/publicaciones.html">Publicaciones</a><a href="pages/galeria.html">Galería</a><a href="pages/contacto.html">Contacto</a></nav>
         </div>

@@ -1,0 +1,27 @@
+# Caminando Otro Sendero
+
+> Consultora chilena especializada en consultoría ambiental, investigación científica y educación ambiental.
+
+## Información principal
+
+- [Inicio](index.html): presentación de la empresa y sus áreas de trabajo.
+- [Nosotros](pages/sobre-nosotros.html): historia, enfoque, fundadora y trayectoria.
+- [Servicios](pages/servicios.html): líneas base, monitoreo, taxonomía, informes técnicos y educación ambiental.
+- [Publicaciones](pages/publicaciones.html): producción científica en ecología, herpetología, entomología y taxonomía.
+- [Galería](pages/galeria.html): registros de trabajo de campo y educación ambiental.
+- [Contacto](pages/contacto.html): correo, teléfono, WhatsApp y formulario de consulta.
+
+## Ámbito y contacto
+
+- Área de servicio: Chile.
+- Correo: eleuiese@gmail.com
+- Teléfono y WhatsApp: +56 9 9793 5170
+- Instagram: https://www.instagram.com/caminando_otro_sendero/
+
+## Especialidades
+
+- Líneas base de fauna para proyectos sometidos al SEIA.
+- Monitoreo de biodiversidad y levantamientos ambientales.
+- Identificación de entomofauna y comunidades acuáticas.
+- Informes técnicos e investigación aplicada.
+- Talleres y programas de educación ambiental.
