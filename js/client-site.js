@@ -4,6 +4,7 @@
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // Menú móvil
+    const siteHeader = document.querySelector('.site-header');
     const menuToggle = document.querySelector('.menu-toggle');
     const menu = document.querySelector('.main-menu');
 
@@ -17,6 +18,7 @@
 
     menuToggle?.addEventListener('click', () => {
         const willOpen = menuToggle.getAttribute('aria-expanded') !== 'true';
+        siteHeader?.classList.remove('is-hidden');
         menuToggle.setAttribute('aria-expanded', String(willOpen));
         menuToggle.setAttribute('aria-label', willOpen ? 'Cerrar menú' : 'Abrir menú');
         menu?.classList.toggle('open', willOpen);
@@ -27,6 +29,54 @@
     window.addEventListener('resize', () => {
         if (window.innerWidth > 800) closeMenu();
     });
+
+    // Header móvil: se libera al bajar y vuelve apenas el usuario sube
+    const mobileHeaderQuery = window.matchMedia('(max-width: 800px)');
+    let previousScrollY = Math.max(window.scrollY, 0);
+    let scrollDirection = 0;
+    let directionDistance = 0;
+    let headerScrollTicking = false;
+
+    const updateHeaderVisibility = () => {
+        if (!siteHeader) return;
+
+        const currentScrollY = Math.max(window.scrollY, 0);
+        const delta = currentScrollY - previousScrollY;
+        const nextDirection = Math.sign(delta);
+
+        if (nextDirection && nextDirection !== scrollDirection) {
+            scrollDirection = nextDirection;
+            directionDistance = Math.abs(delta);
+        } else {
+            directionDistance += Math.abs(delta);
+        }
+
+        if (!mobileHeaderQuery.matches || document.body.classList.contains('menu-open') || currentScrollY <= 12) {
+            siteHeader.classList.remove('is-hidden');
+        } else if (scrollDirection < 0 && directionDistance >= 4) {
+            siteHeader.classList.remove('is-hidden');
+        } else if (scrollDirection > 0 && directionDistance >= 24 && currentScrollY > siteHeader.offsetHeight + 24) {
+            siteHeader.classList.add('is-hidden');
+        }
+
+        previousScrollY = currentScrollY;
+        headerScrollTicking = false;
+    };
+
+    window.addEventListener('scroll', () => {
+        if (headerScrollTicking) return;
+        headerScrollTicking = true;
+        window.requestAnimationFrame(updateHeaderVisibility);
+    }, { passive: true });
+
+    window.addEventListener('resize', () => {
+        previousScrollY = Math.max(window.scrollY, 0);
+        scrollDirection = 0;
+        directionDistance = 0;
+        if (!mobileHeaderQuery.matches) siteHeader?.classList.remove('is-hidden');
+    });
+
+    siteHeader?.addEventListener('focusin', () => siteHeader.classList.remove('is-hidden'));
 
     // Carrusel principal
     const hero = document.querySelector('.hero');

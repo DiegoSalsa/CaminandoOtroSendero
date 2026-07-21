@@ -615,7 +615,7 @@ p { margin-bottom: 20px; }
 /* Mobile-first refinement */
 @media (max-width: 800px) {
     html { scroll-padding-top: 74px; }
-    body { font-size: 15.5px; line-height: 1.58; }
+    body { padding-top: 74px; font-size: 15.5px; line-height: 1.58; }
     .container, .header-inner, .hero-content { width: min(calc(100% - 28px), var(--container)); }
     .section, .contact { padding-top: 64px; padding-bottom: 64px; }
     h2 { font-size: clamp(2.1rem, 9vw, 3rem); line-height: 1.04; }
@@ -624,7 +624,15 @@ p { margin-bottom: 20px; }
     .button { min-height: 48px; padding: 12px 19px; }
 
     .header-inner { justify-content: flex-start; }
-    .site-header { height: 74px; }
+    .site-header {
+        position: fixed;
+        right: 0;
+        left: 0;
+        height: 74px;
+        transition: transform .28s ease, box-shadow .2s ease;
+        will-change: transform;
+    }
+    .site-header.is-hidden { transform: translateY(-100%); }
     .brand img { width: 72px; max-height: 66px; }
     .menu-toggle { width: 44px; height: 44px; margin-left: auto; }
     .header-inner > nav { width: 0; }
