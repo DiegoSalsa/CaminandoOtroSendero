@@ -628,14 +628,13 @@ p { margin-bottom: 20px; }
     .main-menu a { padding: 14px 3px; font-size: 1.12rem; }
     .main-menu .nav-contact { margin-top: 14px; padding: 13px 18px; }
 
-    .hero { min-height: clamp(570px, calc(100svh - 74px), 650px); }
-    .hero-content { padding-top: 64px; }
+    .hero { min-height: clamp(500px, calc(100svh - 74px), 650px); }
+    .hero-content { padding-top: clamp(46px, 8svh, 72px); }
     .hero h1 { max-width: 360px; margin-bottom: 20px; font-size: clamp(2.85rem, 12.8vw, 4.25rem); line-height: .9; }
-    .hero-lead { max-width: 350px; margin-bottom: 24px; font-size: .96rem; line-height: 1.5; }
+    .hero-lead { width: min(78vw, 310px); max-width: 100%; margin-bottom: 24px; font-size: .96rem; line-height: 1.5; }
     .hero-actions { width: min(100%, 350px); gap: 9px; }
     .hero-actions .button { width: 100%; }
     .hero-slide img { object-position: center; }
-    .hero-slide:first-child img { object-position: 18% center; }
     .hero-shade { background: linear-gradient(90deg, rgba(13,28,17,.8) 0%, rgba(13,28,17,.53) 56%, rgba(13,28,17,.12) 100%), linear-gradient(0deg, rgba(13,28,17,.55), transparent 58%); }
 
     .intro-grid { gap: 12px; padding-top: 30px; padding-bottom: 30px; }
@@ -736,8 +735,8 @@ p { margin-bottom: 20px; }
 
 @media (max-width: 480px) {
     .capability-grid, .service-detail-grid, .process-grid { grid-template-columns: 1fr; }
-    .hero { min-height: 590px; }
-    .hero-content { padding-top: 46px; }
+    .hero { min-height: clamp(500px, calc(100svh - 74px), 650px); }
+    .hero-content { padding-top: clamp(46px, 8svh, 64px); }
     .hero h1 { font-size: clamp(2.75rem, 13vw, 3.45rem); }
     .page-hero { min-height: 455px; }
     .page-hero h1 { font-size: clamp(2.15rem, 9.6vw, 2.7rem); }
