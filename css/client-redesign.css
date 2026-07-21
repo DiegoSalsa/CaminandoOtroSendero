@@ -610,7 +610,7 @@ p { margin-bottom: 20px; }
 
 /* Mobile-first refinement */
 @media (max-width: 800px) {
-    html { scroll-padding-top: 70px; }
+    html { scroll-padding-top: 74px; }
     body { font-size: 15.5px; line-height: 1.58; }
     .container, .header-inner, .hero-content { width: min(calc(100% - 28px), var(--container)); }
     .section, .contact { padding-top: 64px; padding-bottom: 64px; }
@@ -619,20 +619,23 @@ p { margin-bottom: 20px; }
     .eyebrow { margin-bottom: 10px; font-size: .68rem; letter-spacing: .15em; }
     .button { min-height: 48px; padding: 12px 19px; }
 
-    .site-header { height: 70px; }
-    .brand img { width: 64px; max-height: 62px; }
-    .menu-toggle { width: 42px; height: 42px; }
-    .main-menu { top: 70px; height: calc(100svh - 70px); padding: 20px 20px 28px; }
+    .header-inner { justify-content: flex-start; }
+    .site-header { height: 74px; }
+    .brand img { width: 72px; max-height: 66px; }
+    .menu-toggle { width: 44px; height: 44px; margin-left: auto; }
+    .header-inner > nav { width: 0; }
+    .main-menu { top: 74px; height: calc(100svh - 74px); padding: 20px 20px 28px; }
     .main-menu a { padding: 14px 3px; font-size: 1.12rem; }
     .main-menu .nav-contact { margin-top: 14px; padding: 13px 18px; }
 
-    .hero { min-height: clamp(570px, calc(100svh - 70px), 650px); }
-    .hero-content { padding-top: 58px; }
+    .hero { min-height: clamp(570px, calc(100svh - 74px), 650px); }
+    .hero-content { padding-top: 64px; }
     .hero h1 { max-width: 360px; margin-bottom: 20px; font-size: clamp(2.85rem, 12.8vw, 4.25rem); line-height: .9; }
     .hero-lead { max-width: 350px; margin-bottom: 24px; font-size: .96rem; line-height: 1.5; }
     .hero-actions { width: min(100%, 350px); gap: 9px; }
     .hero-actions .button { width: 100%; }
-    .hero-slide img { object-position: 76% center; }
+    .hero-slide img { object-position: center; }
+    .hero-slide:first-child img { object-position: 18% center; }
     .hero-shade { background: linear-gradient(90deg, rgba(13,28,17,.8) 0%, rgba(13,28,17,.53) 56%, rgba(13,28,17,.12) 100%), linear-gradient(0deg, rgba(13,28,17,.55), transparent 58%); }
 
     .intro-grid { gap: 12px; padding-top: 30px; padding-bottom: 30px; }
