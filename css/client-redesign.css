@@ -281,8 +281,10 @@ p { margin-bottom: 20px; }
 .capability-card > span { display: block; margin-bottom: 100px; color: var(--orange); font-weight: 700; }
 .capability-card h3 { font-size: 1.7rem; }
 .capability-card p { margin: 0; color: var(--muted); }
+.capability-card > a { display: inline-flex; margin-top: 22px; color: var(--forest); font-weight: 700; text-decoration-color: rgba(32,53,37,.45); text-underline-offset: 4px; }
 .capability-card.accent-card { color: var(--white); background: var(--forest); }
 .capability-card.accent-card p { color: rgba(255,255,255,.68); }
+.capability-card.accent-card > a { color: var(--white); text-decoration-color: rgba(255,255,255,.5); }
 .section-link { margin-top: 35px; text-align: right; }
 .home-research {
     border-top: 1px solid var(--line);
@@ -324,6 +326,42 @@ p { margin-bottom: 20px; }
     border-top: 1px solid rgba(255, 255, 255, .1);
     background: var(--forest);
 }
+
+/* SEO service landing pages */
+.answer-panel {
+    border-left: 5px solid var(--orange);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: clamp(26px, 4vw, 42px);
+    background: var(--white);
+    box-shadow: var(--shadow);
+}
+.answer-panel h2 { margin-bottom: 16px; font-size: clamp(1.8rem, 3.2vw, 2.8rem); }
+.answer-panel p:last-child { margin-bottom: 0; }
+.service-landing-intro { background: var(--cream); }
+.service-landing-intro .intro-copy-grid { align-items: center; }
+.service-landing .detail-card h3 { font-size: clamp(1.3rem, 2vw, 1.7rem); }
+.service-landing .detail-card a { display: inline-flex; margin-top: 22px; color: var(--forest); font-weight: 700; text-underline-offset: 4px; }
+.service-evidence { color: var(--white); background: var(--forest); }
+.service-evidence-grid { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); gap: clamp(48px, 8vw, 110px); align-items: start; }
+.service-evidence h2 { margin-bottom: 18px; }
+.service-evidence p { color: rgba(255,255,255,.72); }
+.reference-list { margin: 0; padding: 0; list-style: none; }
+.reference-list li { border-top: 1px solid rgba(255,255,255,.18); padding: 20px 0; }
+.reference-list li:last-child { border-bottom: 1px solid rgba(255,255,255,.18); }
+.reference-list a { color: var(--white); font-weight: 700; text-decoration-color: rgba(255,255,255,.45); text-underline-offset: 4px; }
+.reference-list span { display: block; margin-top: 5px; color: #b8c592; font-size: .82rem; }
+.expert-note { margin-top: 34px; border-top: 1px solid var(--line); padding-top: 24px; color: var(--muted); font-size: .92rem; }
+.expert-note strong { color: var(--forest); }
+.related-services { background: var(--sand); }
+.related-services .capability-card { min-height: 290px; }
+.related-services .capability-card > span { margin-bottom: 54px; }
+.local-facts { background: var(--white); }
+.local-facts .fact-grid { border-color: var(--line); }
+.local-facts .fact-grid > div { border-color: var(--line); }
+.local-facts .fact-grid strong { color: var(--forest); }
+.local-facts .fact-grid span { color: var(--muted); }
+.location-note { display: flex; gap: 12px; align-items: flex-start; margin-top: 30px; border-top: 1px solid rgba(255,255,255,.18); padding-top: 22px; color: rgba(255,255,255,.76); }
+.location-note strong { color: var(--white); }
 
 /* Internal pages */
 .page-hero { position: relative; min-height: 620px; display: flex; align-items: flex-end; overflow: hidden; color: var(--white); background: var(--forest); }
@@ -554,7 +592,7 @@ p { margin-bottom: 20px; }
     .contact-links { grid-template-columns: 1fr; }
     .footer-grid { grid-template-columns: 100px 1fr; }
     .footer-grid nav { grid-column: 1 / -1; justify-content: flex-start; }
-    .corporate-overview-grid, .home-research-grid, .story-grid, .intro-copy-grid, .founder-grid, .education-grid { grid-template-columns: 1fr; }
+    .corporate-overview-grid, .home-research-grid, .story-grid, .intro-copy-grid, .founder-grid, .education-grid, .service-evidence-grid { grid-template-columns: 1fr; }
     .overview-image img, .research-visual img, .founder-image img, .education-photo img { height: 520px; }
     .home-section-header { grid-template-columns: 1fr; gap: 20px; }
     .corporate-cta-inner { align-items: flex-start; flex-direction: column; justify-content: center; }

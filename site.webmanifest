@@ -1,9 +1,11 @@
 {
   "name": "Caminando Otro Sendero",
   "short_name": "Otro Sendero",
-  "description": "Consultoría, investigación y educación ambiental en Chile.",
+  "description": "Consultoría ambiental, biodiversidad y educación ambiental desde la Región del Biobío para Chile.",
   "lang": "es-CL",
-  "start_url": "./index.html",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f4f0e7",
   "theme_color": "#203525",
