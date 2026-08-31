@@ -79,21 +79,21 @@ const CONFIG = {
             title: 'Effects of an extreme drought on the feeding ecology of Bubo magellanicus',
             authors: 'Catchpole, Sam, Carrera-Suárez L.E y Reinaldo Vera',
             journal: 'PeerJ',
-            url: 'https://peerj.com/articles/15020/'
+            url: 'https://doi.org/10.7717/peerj.15020'
         },
         {
             year: 2021,
             title: 'Effects of electrofishing on tadpoles of Calyptocephalella gayi',
             authors: 'Carrera-Suárez L.E. & Catchpole, Sam',
             journal: 'Boletín chileno de herpetología',
-            url: '#'
+            url: 'http://www.boletindeherpetologia.com/uploads/3/2/2/9/32291217/8._carrerasuarez_catchpole2021.pdf'
         },
         {
             year: 2011,
             title: 'Catálogo de los Noctuidae de la Isla Robinson Crusoe',
             authors: 'Carrera-Suárez L.E., T.S. Olivares & A.O. Angulo',
             journal: 'SHILAP, Revista de Lepidopterología',
-            url: '#'
+            url: 'https://www.redalyc.org/pdf/455/45521385008.pdf'
         },
     ],
 };
