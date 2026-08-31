@@ -2,7 +2,7 @@
 const CONFIG = {
     siteName: 'Caminando Otro Sendero',
     company: {
-        name: 'Caminando Otro Sendero E.I.R.L',
+        name: 'Caminando Otro Sendero SPA',
         rut: '76.932.987-0',
         founder: 'Luis E. Carrera Suárez',
         founded: 2018,
