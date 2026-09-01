@@ -4,6 +4,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "caminando-otro-sendero.vercel.app"
+        }
+      ],
+      "destination": "https://www.caminandootrosendero.cl/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
