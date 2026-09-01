@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Sitio web corporativo de Caminando Otro Sendero",
   "scripts": {
-    "dev": "npx -y serve ."
+    "dev": "npx -y serve .",
+    "seo:audit": "node scripts/seo-audit.mjs"
   },
   "keywords": [],
   "author": "",

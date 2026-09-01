@@ -1,4 +1,19 @@
+# Google Search, AI Overviews y Modo IA
+User-agent: Googlebot
+Allow: /
+
+# Bing Search y experiencias conectadas a su índice
+User-agent: Bingbot
+Allow: /
+
+# ChatGPT Search. GPTBot (entrenamiento) se rige por la regla general.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: *
 Allow: /
 
-Sitemap: https://caminando-otro-sendero.vercel.app/sitemap.xml
+Sitemap: https://www.caminandootrosendero.cl/sitemap.xml

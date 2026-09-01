@@ -2,31 +2,31 @@
 
 > Consultora ambiental chilena con base en Talcahuano, Región del Biobío. Integra consultoría de biodiversidad, investigación científica, taxonomía y educación ambiental para proyectos en Chile.
 
-Sitio oficial: https://caminando-otro-sendero.vercel.app/
+Sitio oficial: https://www.caminandootrosendero.cl/
 
 ## Identidad y experiencia
 
-- Razón social: Caminando Otro Sendero E.I.R.L.
+- Razón social: Caminando Otro Sendero SPA
 - Base operativa: Talcahuano, Región del Biobío, Chile.
 - Área de servicio: Región del Biobío y otras regiones de Chile, según proyecto.
 - Dirección científica: Luis E. Carrera Suárez, biólogo especialista en invertebrados, taxonomía, líneas base de fauna e investigación ambiental.
-- [Empresa y equipo](https://caminando-otro-sendero.vercel.app/pages/sobre-nosotros)
-- [Publicaciones científicas](https://caminando-otro-sendero.vercel.app/pages/publicaciones)
+- [Empresa y equipo](https://www.caminandootrosendero.cl/pages/sobre-nosotros)
+- [Publicaciones científicas](https://www.caminandootrosendero.cl/pages/publicaciones)
 
 ## Servicios
 
-- [Consultoría ambiental y servicios](https://caminando-otro-sendero.vercel.app/pages/servicios)
-- [Línea base de fauna para SEIA](https://caminando-otro-sendero.vercel.app/pages/servicios/linea-base-terrestre)
-- [Monitoreo de biodiversidad y fauna](https://caminando-otro-sendero.vercel.app/pages/servicios/monitoreo-biodiversidad)
-- [Taxonomía acuática y macroinvertebrados](https://caminando-otro-sendero.vercel.app/pages/servicios/taxonomia-acuatica)
-- [Educación ambiental y talleres](https://caminando-otro-sendero.vercel.app/pages/servicios/educacion-ambiental)
-- [Capacitaciones ambientales para empresas](https://caminando-otro-sendero.vercel.app/pages/servicios/capacitaciones)
-- [Consultora ambiental en Concepción y Biobío](https://caminando-otro-sendero.vercel.app/pages/consultora-ambiental-concepcion)
+- [Consultoría ambiental y servicios](https://www.caminandootrosendero.cl/pages/servicios)
+- [Línea base de fauna para SEIA](https://www.caminandootrosendero.cl/pages/servicios/linea-base-terrestre)
+- [Monitoreo de biodiversidad y fauna](https://www.caminandootrosendero.cl/pages/servicios/monitoreo-biodiversidad)
+- [Taxonomía acuática y macroinvertebrados](https://www.caminandootrosendero.cl/pages/servicios/taxonomia-acuatica)
+- [Educación ambiental y talleres](https://www.caminandootrosendero.cl/pages/servicios/educacion-ambiental)
+- [Capacitaciones ambientales para empresas](https://www.caminandootrosendero.cl/pages/servicios/capacitaciones)
+- [Consultora ambiental en Concepción y Biobío](https://www.caminandootrosendero.cl/pages/consultora-ambiental-concepcion)
 
 ## Evidencia y contacto
 
-- [Galería de trabajo en terreno](https://caminando-otro-sendero.vercel.app/pages/galeria)
-- [Contacto](https://caminando-otro-sendero.vercel.app/pages/contacto)
+- [Galería de trabajo en terreno](https://www.caminandootrosendero.cl/pages/galeria)
+- [Contacto](https://www.caminandootrosendero.cl/pages/contacto)
 - Correo: luis.carrera.suarez@caminandootrosendero.cl
 - Correo alternativo: eleuiese@gmail.com
 - Teléfono y WhatsApp: +56 9 9793 5170
