@@ -229,27 +229,56 @@
         if (outside) lightbox.close();
     });
 
-    // Formulario sin backend: prepara el correo con todos los datos
     const contactForm = document.getElementById('contact-form');
-    contactForm?.addEventListener('submit', (event) => {
+    const formNote = document.getElementById('form-note');
+    const submitButton = contactForm?.querySelector('button[type="submit"]');
+
+    const setFormNote = (text, state) => {
+        if (!formNote) return;
+        formNote.textContent = text;
+        formNote.classList.remove('is-success', 'is-error');
+        if (state) formNote.classList.add(state);
+    };
+
+    contactForm?.addEventListener('submit', async (event) => {
         event.preventDefault();
+        if (!contactForm.checkValidity()) {
+            contactForm.reportValidity();
+            return;
+        }
+
         const data = new FormData(contactForm);
-        const name = String(data.get('name') || '').trim();
-        const company = String(data.get('company') || '').trim();
-        const email = String(data.get('email') || '').trim();
-        const service = String(data.get('service') || '').trim();
-        const message = String(data.get('message') || '').trim();
-        const subject = `Consulta web: ${service}`;
-        const body = [
-            `Nombre: ${name}`,
-            `Empresa: ${company || 'No indicada'}`,
-            `Correo: ${email}`,
-            `Servicio: ${service}`,
-            '',
-            'Mensaje:',
-            message
-        ].join('\n');
-        window.location.href = `mailto:eleuiese@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const payload = {
+            name: String(data.get('name') || '').trim(),
+            company: String(data.get('company') || '').trim(),
+            email: String(data.get('email') || '').trim(),
+            service: String(data.get('service') || '').trim(),
+            message: String(data.get('message') || '').trim(),
+            website: String(data.get('website') || '').trim()
+        };
+
+        submitButton?.setAttribute('disabled', 'true');
+        if (submitButton) submitButton.textContent = 'Enviando...';
+        setFormNote('Estamos enviando tu consulta.', '');
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const result = await response.json().catch(() => ({}));
+            if (!response.ok) {
+                throw new Error(result.error || 'No pudimos enviar tu consulta.');
+            }
+            contactForm.reset();
+            setFormNote('Recibimos tu consulta. Te escribiremos a la brevedad.', 'is-success');
+        } catch (error) {
+            setFormNote(error.message || 'No pudimos enviar tu consulta. Inténtalo nuevamente.', 'is-error');
+        } finally {
+            submitButton?.removeAttribute('disabled');
+            if (submitButton) submitButton.textContent = 'Enviar consulta';
+        }
     });
 
     const year = document.getElementById('current-year');

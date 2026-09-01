@@ -27,7 +27,8 @@ Sitio oficial: https://caminando-otro-sendero.vercel.app/
 
 - [Galería de trabajo en terreno](https://caminando-otro-sendero.vercel.app/pages/galeria)
 - [Contacto](https://caminando-otro-sendero.vercel.app/pages/contacto)
-- Correo: eleuiese@gmail.com
+- Correo: luis.carrera.suarez@caminandootrosendero.cl
+- Correo alternativo: eleuiese@gmail.com
 - Teléfono y WhatsApp: +56 9 9793 5170
 - Instagram: https://www.instagram.com/caminando_otro_sendero/
 - Perfil profesional: https://cl.linkedin.com/in/luis-e-carrera-su%C3%A1rez-5b343571

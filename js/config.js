@@ -9,7 +9,8 @@ const CONFIG = {
         description: 'Consultoría ambiental, investigación científica y educación ambiental en Chile',
     },
     contact: {
-        email: 'eleuiese@gmail.com',
+        email: 'luis.carrera.suarez@caminandootrosendero.cl',
+        emailAlt: 'eleuiese@gmail.com',
         phone: '+56 9 9793 5170',
         whatsapp: '+56997935170',
     },
