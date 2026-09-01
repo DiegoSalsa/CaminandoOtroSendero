@@ -4,7 +4,8 @@
   "description": "Sitio web corporativo de Caminando Otro Sendero",
   "scripts": {
     "dev": "npx -y serve .",
-    "seo:audit": "node scripts/seo-audit.mjs"
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "keywords": [],
   "author": "",
