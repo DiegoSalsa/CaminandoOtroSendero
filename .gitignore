@@ -28,6 +28,7 @@ __pycache__/
 *.tmp
 *.bak
 ~*
+.seo-cache/
 
 # Construcción
 dist/

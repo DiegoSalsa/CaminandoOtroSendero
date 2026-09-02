@@ -1,6 +1,6 @@
 # 🌿 Caminando Otro Sendero - Sitio Web
 
-Sitio web profesional para **Caminando Otro Sendero E.I.R.L**, empresa especializada en consultoría ambiental, investigación y educación ambiental.
+Sitio web profesional de **Caminando Otro Sendero**, empresa especializada en consultoría ambiental, investigación y educación ambiental. Razón social vigente confirmada por su titular: **Caminando Otro Sendero SpA**, RUT **76.932.987-0**.
 
 ## 📋 Descripción
 
@@ -166,7 +166,7 @@ Para más información sobre personalizaciones específicas, contacta al equipo 
 
 ## 📄 Licencia
 
-Este proyecto es propiedad de Caminando Otro Sendero E.I.R.L
+Este proyecto es propiedad de Caminando Otro Sendero.
 
 ---
 

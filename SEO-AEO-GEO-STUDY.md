@@ -75,7 +75,7 @@ Fuente oficial: [Overview of OpenAI Crawlers](https://developers.openai.com/api/
 - `robots.txt`, sitemap, Open Graph, hreflang, JSON-LD y `llms.txt` alineados con el dominio propio.
 - Reglas explícitas para Googlebot, Bingbot, OAI-SearchBot y ChatGPT-User.
 - Integración reproducible con IndexNow mediante `npm run indexnow`.
-- Identidad empresarial corregida a Caminando Otro Sendero SPA.
+- Identidad empresarial corregida a Caminando Otro Sendero SpA.
 - YouTube añadido como perfil oficial de la entidad.
 - Respuestas visibles y schema FAQ para preguntas comerciales observadas en Google.
 - Páginas con respuesta directa, autoría, revisión técnica, servicios relacionados y referencias oficiales.

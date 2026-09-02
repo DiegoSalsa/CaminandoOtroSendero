@@ -2,9 +2,12 @@ const { Resend } = require('resend');
 
 const ALLOWED_SERVICES = [
     'Consultoría ambiental',
-    'Línea base y monitoreo',
-    'Identificación taxonómica',
+    'Línea base de artrópodos',
+    'Línea base de fauna',
+    'Monitoreo de biodiversidad',
+    'Taxonomía acuática',
     'Educación ambiental',
+    'Capacitaciones ambientales',
     'Otro',
 ];
 
@@ -181,6 +184,7 @@ module.exports = async function handler(req, res) {
         email: trimField(payload.email, 160).toLowerCase(),
         service: trimField(payload.service, 80),
         message: trimField(payload.message, 4000),
+        privacyConsent: payload.privacyConsent === true,
     };
 
     if (!fields.name || !fields.email || !fields.message || !fields.service) {
@@ -193,6 +197,10 @@ module.exports = async function handler(req, res) {
 
     if (!ALLOWED_SERVICES.includes(fields.service)) {
         return res.status(400).json({ error: 'Selecciona un servicio válido.' });
+    }
+
+    if (!fields.privacyConsent) {
+        return res.status(400).json({ error: 'Debes aceptar la política de privacidad para enviar la consulta.' });
     }
 
     const apiKey = process.env.RESEND_API_KEY;

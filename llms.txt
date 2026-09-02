@@ -6,7 +6,8 @@ Sitio oficial: https://www.caminandootrosendero.cl/
 
 ## Identidad y experiencia
 
-- Razón social: Caminando Otro Sendero SPA
+- Razón social: Caminando Otro Sendero SpA
+- RUT: 76.932.987-0
 - Base operativa: Talcahuano, Región del Biobío, Chile.
 - Área de servicio: Región del Biobío y otras regiones de Chile, según proyecto.
 - Dirección científica: Luis E. Carrera Suárez, biólogo especialista en invertebrados, taxonomía, líneas base de fauna e investigación ambiental.
