@@ -3,8 +3,8 @@
     --forest-2: #2d4934;
     --moss: #66753c;
     --leaf: #83934f;
-    --orange: #c54e19;
-    --orange-dark: #c95822;
+    --orange: #a83f13;
+    --orange-dark: #a83f13;
     --cream: #f6f3eb;
     --sand: #e9e2d4;
     --ink: #172019;
@@ -310,7 +310,9 @@ p { margin-bottom: 20px; }
 .capability-card h3 { font-size: 1.7rem; }
 .capability-card p { margin: 0; color: var(--muted); }
 .capability-card > a { display: inline-flex; margin-top: 22px; color: var(--forest); font-weight: 700; text-decoration-color: rgba(32,53,37,.45); text-underline-offset: 4px; }
+.detail-card > a { display: inline-flex; margin-top: 22px; color: var(--forest); font-weight: 700; text-decoration-color: rgba(32,53,37,.45); text-underline-offset: 4px; }
 .capability-card.accent-card { color: var(--white); background: var(--forest); }
+.capability-card.accent-card > span { color: #f0a36c; }
 .capability-card.accent-card p { color: rgba(255,255,255,.68); }
 .capability-card.accent-card > a { color: var(--white); text-decoration-color: rgba(255,255,255,.5); }
 .section-link { margin-top: 35px; text-align: right; }
