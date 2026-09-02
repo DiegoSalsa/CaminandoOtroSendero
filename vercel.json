@@ -42,6 +42,21 @@
       "source": "/pages/blog",
       "destination": "/pages/publicaciones",
       "permanent": true
+    },
+    {
+      "source": "/pages/casos/muestreo-entomologico-ambientes-aridos",
+      "destination": "/pages/casos",
+      "permanent": true
+    },
+    {
+      "source": "/pages/casos/taller-insectos-observacion",
+      "destination": "/pages/casos",
+      "permanent": true
+    },
+    {
+      "source": "/pages/casos/educacion-ambiental-terreno",
+      "destination": "/pages/casos",
+      "permanent": true
     }
   ]
 }

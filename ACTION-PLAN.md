@@ -37,7 +37,7 @@
 | Prioridad | Acción | Responsable sugerido | Esfuerzo | Criterio de aceptación |
 |---|---|---|---:|---|
 | Alta | Elevar 5 fichas al estándar de artrópodos | Especialista + contenido | L | Cada página cubre alcance, entradas, método, límites, QA/QC, entregables, responsable, fuentes y siguiente paso; revisión humana firmada. |
-| Alta | Publicar 3 casos de estudio | Dirección + contenido | L | Cada caso incluye contexto, territorio, objetivo, método, esfuerzo, entregable, resultado permitido, limitación y 2–4 fotos autorizadas. |
+| Alta | Publicar 3 experiencias de trabajo | Dirección + contenido | L | Una sola página de experiencias, accesible sólo desde el pie de página, reúne tres trabajos con fotografías autorizadas y sin exponer antecedentes de clientes. |
 | Alta | Resolver el grafo de entidad | Web + dirección | M | `Organization` tiene un núcleo idéntico en todo el sitio; LinkedIn personal sólo en `Person`; transición legal explicada sólo si está validada. |
 | Media | Completar `Service` schema | Web | M | Seis servicios con `url`, `description`, `provider`, `areaServed` y `WebPage.mainEntity`; validan en Schema.org/Rich Results donde aplique. |
 | Media | Firmas, fechas y fuentes inline | Especialista + contenido | M | Toda ficha técnica muestra autor/revisor, credencial, fecha de actualización y fuente primaria junto a afirmaciones principales. |
@@ -47,7 +47,7 @@
 ### Estado de ejecución — 2 de septiembre de 2026
 
 - [x] Las seis fichas de servicio alcanzan el estándar editorial: alcance, entradas, método, QA/QC, entregables, límites, responsable, fecha, fuentes y siguiente paso.
-- [x] Publicados tres casos documentales con evidencia original, contexto, territorio, objetivo, método, esfuerzo disponible, entregable, resultado permitido y limitaciones explícitas.
+- [x] Publicadas tres experiencias de trabajo en una única página accesible desde el pie de página, sin exponer antecedentes de clientes o proyectos que no corresponde publicar.
 - [x] Grafo de entidad consolidado: los cuatro nodos corporativos comparten un núcleo idéntico; LinkedIn permanece sólo en `Person`; no se publica una transición societaria histórica no documentada.
 - [x] `Service` schema completo para los seis servicios, enlazado como `WebPage.mainEntity` y comprobado por la auditoría local.
 - [x] Firmas, fechas y fuentes primarias incorporadas en las seis fichas técnicas.
