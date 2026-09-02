@@ -74,9 +74,10 @@
 ### Estado de ejecución — 2 de septiembre de 2026
 
 - [x] Search Console verificado y sitemap enviado: `Success`, 15 URL descubiertas; el informe de indexación aún procesa datos.
-- [ ] GA4: la propiedad fue creada, pero falta crear el flujo web, instalar la etiqueta y definir conversiones de formulario, WhatsApp y teléfono.
+- [~] GA4: propiedad **Caminando Otro Sendero** y flujo web creados (stream `15658308396`). La etiqueta y las conversiones quedan pendientes de un mecanismo de consentimiento compatible con la regla de no alterar páginas existentes; no se activa recolección sin ese paso.
 - [ ] GBP, reseñas éticas y auditoría NAP/citaciones: sin verificar.
-- [ ] Baseline CWV y backlinks: sin datos operativos todavía.
+- [x] Baseline CWV de laboratorio: tres corridas Lighthouse móvil por plantilla, con mediana de 87/3,35 s LCP en inicio; 88/3,28 s en servicios; 91/2,86 s en la ficha extensa; y 82/4,12 s en galería. No hay datos CrUX ni INP de campo aún. Galería es la prioridad para una traza posterior sin modificar el diseño a ciegas.
+- [ ] Baseline de backlinks: no hay export GSC/Bing ni proveedor conectado. La búsqueda pública detectó menciones académicas y perfiles históricos, pero no constituye una línea base de enlaces hacia el dominio.
 
 ## Fase 4 — 1 a 3 meses
 
@@ -96,6 +97,7 @@
 - Añadir `og:image:width`, `og:image:height` y `og:image:type`.
 - Mantener `lastmod` por URL sólo ante cambios sustanciales.
 - Renombrar de forma controlada activos históricos de `galeria-2` o mantener un mapa archivo→escena.
+- IndexNow enviado el 2 de septiembre de 2026: las 15 URL fueron aceptadas con HTTP 200. Reenviar sólo después de cambios en URL indexables.
 
 ## KPI de los primeros 90 días
 
@@ -108,7 +110,7 @@
 | Política de privacidad accesible desde footer | 1/1 | Mantener 1/1 |
 | Formularios con consentimiento visible | 0/1 | Pospuesto por diseño aprobado |
 | CWV p75 | No disponible | Baseline + plan; luego LCP ≤2,5 s, INP ≤200 ms, CLS ≤0,1 |
-| GSC/GA4/GBP | GSC y sitemap verificados; GA4/GBP pendientes | Conectados y con eventos/UTM |
+| GSC/GA4/GBP | GSC y sitemap verificados; GA4 con propiedad y flujo creados, sin etiqueta; GBP pendiente | Conectados y con eventos/UTM |
 | Conversiones orgánicas | No disponible | Baseline y tendencia mensual, sin meta arbitraria previa |
 
 ## Orden recomendado
