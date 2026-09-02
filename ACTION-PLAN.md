@@ -94,7 +94,7 @@
 - Reducir `http://apex` a una sola redirección hacia HTTPS `www`.
 - Hacer `.reveal` visible por defecto y animarlo sólo bajo progressive enhancement.
 - Probar AVIF + WebP, `srcset/sizes` y presupuestos: hero móvil ≤150 KB, desktop ≤250 KB cuando la calidad lo permita.
-- Añadir `og:image:width`, `og:image:height` y `og:image:type`.
+- [x] `og:image:width`, `og:image:height` y `og:image:type` añadidos a las 15 páginas con imagen Open Graph.
 - Mantener `lastmod` por URL sólo ante cambios sustanciales.
 - Renombrar de forma controlada activos históricos de `galeria-2` o mantener un mapa archivo→escena.
 - IndexNow enviado el 2 de septiembre de 2026: las 15 URL fueron aceptadas con HTTP 200. Reenviar sólo después de cambios en URL indexables.
