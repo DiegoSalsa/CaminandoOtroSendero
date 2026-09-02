@@ -98,6 +98,7 @@
 - Mantener `lastmod` por URL sólo ante cambios sustanciales.
 - Renombrar de forma controlada activos históricos de `galeria-2` o mantener un mapa archivo→escena.
 - IndexNow enviado el 2 de septiembre de 2026: las 15 URL fueron aceptadas con HTTP 200. Reenviar sólo después de cambios en URL indexables.
+- [x] El logo de todos los pies de página usa una variante WebP de 280 px, de 11,9 KB frente a 48,0 KB, conservando la misma proporción y tamaño mostrado.
 
 ## KPI de los primeros 90 días
 
