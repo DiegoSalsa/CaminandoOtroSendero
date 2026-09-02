@@ -10,6 +10,12 @@
 - Confirmar la historia legal antes de modificar `SPA`, `E.I.R.L.` o foundingDate.
 - Medir antes/después con GSC, GA4, GBP y CWV.
 
+## Restricciones aprobadas de implementación
+
+- El diseño y el contenido visible de las páginas existentes se conserva como la versión aprobada antes de las fases 1 y 2.
+- Las fichas individuales, Experiencias y Privacidad se acceden sólo desde el pie de página; no se enlazan desde tarjetas, contenido ni navegación principal.
+- No se publican notas editoriales, captions interpretativos ni contenido técnico nuevo sin información aprobada por el cliente.
+
 ## Fase 1 — 0 a 7 días
 
 | Prioridad | Acción | Responsable sugerido | Esfuerzo | Criterio de aceptación |
@@ -28,7 +34,8 @@
 - [x] CTA y formulario restituidos a su presentación aprobada.
 - [x] Identidad vigente confirmada por el titular y normalizada como **Caminando Otro Sendero SpA**, RUT **76.932.987-0**, con base en Talcahuano.
 - [x] Headers defensivos configurados; CSP desplegable inicialmente en modo report-only.
-- [ ] Ajustes de tipografía móvil y consentimiento explícito en formulario: se posponen para preservar el diseño aprobado.
+- [ ] Consentimiento explícito en formulario: pospuesto para preservar el flujo y la presentación aprobados.
+- [ ] Ajustes de tipografía móvil: pospuestos para preservar el diseño aprobado.
 - [ ] Historia societaria cerrada. Aún falta la fecha/documento de una eventual transformación desde E.I.R.L.; esta incertidumbre histórica no afecta la identidad vigente ya confirmada. Véase `IDENTITY-VERIFICATION.md`.
 
 ## Fase 2 — 2 a 4 semanas
@@ -45,13 +52,13 @@
 
 ### Estado de ejecución — 2 de septiembre de 2026
 
-- [x] Las seis fichas de servicio alcanzan el estándar editorial: alcance, entradas, método, QA/QC, entregables, límites, responsable, fecha, fuentes y siguiente paso.
+- [ ] Profundizar cinco fichas al estándar editorial: pendiente contar con información verificable y aprobación explícita, sin alterar diseño ni navegación.
 - [x] Publicadas tres experiencias de trabajo en una única página accesible desde el pie de página, sin exponer antecedentes de clientes o proyectos que no corresponde publicar.
-- [x] Grafo de entidad consolidado: los cuatro nodos corporativos comparten un núcleo idéntico; LinkedIn permanece sólo en `Person`; no se publica una transición societaria histórica no documentada.
+- [ ] Completar la verificación del grafo de entidad en producción: el schema local valida y `Service` referencia la entidad corporativa, pero la corroboración externa queda pendiente de que Google procese las URL.
 - [x] `Service` schema completo para los seis servicios, enlazado como `WebPage.mainEntity` y comprobado por la auditoría local.
-- [x] Firmas, fechas y fuentes primarias incorporadas en las seis fichas técnicas.
-- [x] Galerías ampliadas con captions de evidencia y corregidas las descripciones cruzadas detectadas en la segunda página.
-- [x] Ampliadas las páginas “Sobre nosotros” y “Publicaciones” con biografía verificable, DOI/permalinks, resúmenes y vínculos hacia los servicios.
+- [ ] Firmas, fechas y fuentes primarias visibles: sólo 2 de 6 fichas contienen esas señales; completar sólo con respaldo aprobado.
+- [ ] Captions de evidencia en galerías: pendiente; las galerías mantienen la presentación aprobada sin captions editoriales.
+- [ ] Ampliar “Sobre nosotros” y “Publicaciones”: pendiente contenido verificable y aprobación explícita; se conserva el contenido publicado previamente.
 
 ## Fase 3 — Medición y SEO local, 2 a 6 semanas
 
@@ -63,6 +70,13 @@
 | Media | Auditoría NAP/citaciones | Marketing | M | GBP, Bing Places, Apple Business Connect, LinkedIn empresa y citaciones sectoriales legítimas usan identidad coherente. |
 | Media | Baseline CWV | Web | M | PSI/CrUX móvil y desktop para home, hub, ficha extensa y galerías; si no hay CrUX, 3 Lighthouse y mediana documentada. |
 | Media | Baseline backlinks | SEO | M | Export GSC/Bing + proveedor opcional; dominios referentes, anchors, enlaces perdidos y páginas destino documentados sin depender de una sola métrica. |
+
+### Estado de ejecución — 2 de septiembre de 2026
+
+- [x] Search Console verificado y sitemap enviado: `Success`, 15 URL descubiertas; el informe de indexación aún procesa datos.
+- [ ] GA4: la propiedad fue creada, pero falta crear el flujo web, instalar la etiqueta y definir conversiones de formulario, WhatsApp y teléfono.
+- [ ] GBP, reseñas éticas y auditoría NAP/citaciones: sin verificar.
+- [ ] Baseline CWV y backlinks: sin datos operativos todavía.
 
 ## Fase 4 — 1 a 3 meses
 
@@ -87,13 +101,14 @@
 
 | KPI | Baseline | Meta inicial |
 |---|---|---|
-| URL válidas en sitemap | 14/14 | Mantener 100% |
-| Servicios enlazados desde hub | 1/6 | 6/6 |
+| URL descubiertas en sitemap | 15/15 | Mantener 100% |
+| Fichas de servicio accesibles desde footer | 6/6 | Mantener 6/6 según regla de navegación |
 | Páginas comerciales con estándar editorial completo | 1/6 | 6/6 |
 | Casos publicados | 0 | 3 |
-| Formularios con privacidad visible | 0/1 | 1/1 |
+| Política de privacidad accesible desde footer | 1/1 | Mantener 1/1 |
+| Formularios con consentimiento visible | 0/1 | Pospuesto por diseño aprobado |
 | CWV p75 | No disponible | Baseline + plan; luego LCP ≤2,5 s, INP ≤200 ms, CLS ≤0,1 |
-| GSC/GA4/GBP | No verificables | Conectados y con eventos/UTM |
+| GSC/GA4/GBP | GSC y sitemap verificados; GA4/GBP pendientes | Conectados y con eventos/UTM |
 | Conversiones orgánicas | No disponible | Baseline y tendencia mensual, sin meta arbitraria previa |
 
 ## Orden recomendado
