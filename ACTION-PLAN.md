@@ -14,22 +14,21 @@
 
 | Prioridad | Acción | Responsable sugerido | Esfuerzo | Criterio de aceptación |
 |---|---|---|---:|---|
-| Alta | Publicar política de privacidad y aviso/consentimiento junto al formulario | Legal + web | M | Footer y formulario enlazan una política que identifica responsable, finalidad, conservación y derechos. |
-| Alta | Enlazar las 6 fichas desde `/pages/servicios` | Web | S | Las seis tarjetas son enlaces descriptivos; todas las fichas quedan a ≤2 clics de inicio. |
-| Alta | Contextualizar CTA y formulario | UX + web | M | Cada servicio tiene CTA en hero; `?servicio=` preselecciona opción; incluye capacitaciones, monitoreo y taxonomía; se explica respuesta/siguiente paso. |
+| Alta | Publicar política de privacidad desde el pie de página | Legal + web | M | El pie de página enlaza una política que identifica responsable, finalidad, conservación y derechos. |
+| Alta | Mantener las fichas de servicio sólo en el pie de página | Web | S | Las tarjetas describen las capacidades sin enlazar a fichas individuales; el acceso a esas fichas se conserva exclusivamente en el pie de página. |
+| Alta | Mantener CTA y formulario del diseño aprobado | UX + web | S | Las llamadas a la acción y el formulario conservan el flujo y la presentación aprobados por el cliente. |
 | Alta | Verificar identidad legal y fecha de inicio | Dirección | S | Documento interno confirma nombre actual, anterior si aplica, fecha de transformación y fecha de inicio; no se publica nada contradictorio. |
 | Alta | Añadir headers defensivos | Web/infra | M | CSP report-only probada; `nosniff`, referrer policy, permissions policy y frame protection presentes sin romper formulario, fuentes o scripts. |
 | Media | Ajustes móviles | Web/CSS | S | Body ≥16 px; menú y paginación ≥48×48 px; test visual 375×812 sin overflow. |
 
 ### Estado de ejecución — 2 de septiembre de 2026
 
-- [x] Política de privacidad publicada y enlazada desde el formulario y los pies de página.
-- [x] Consentimiento requerido y validado tanto en navegador como en la API.
-- [x] Las seis fichas de servicio están enlazadas desde el hub de servicios.
-- [x] CTA contextual en hero y contenido, con preselección por `?servicio=` y plazo de respuesta visible.
+- [x] Política de privacidad publicada y accesible sólo desde los pies de página.
+- [x] Las seis fichas de servicio se encuentran sólo en los pies de página, conforme a la regla de navegación indicada por el cliente.
+- [x] CTA y formulario restituidos a su presentación aprobada.
 - [x] Identidad vigente confirmada por el titular y normalizada como **Caminando Otro Sendero SpA**, RUT **76.932.987-0**, con base en Talcahuano.
 - [x] Headers defensivos configurados; CSP desplegable inicialmente en modo report-only.
-- [x] Tipografía móvil y controles principales ajustados a los mínimos definidos.
+- [ ] Ajustes de tipografía móvil y consentimiento explícito en formulario: se posponen para preservar el diseño aprobado.
 - [ ] Historia societaria cerrada. Aún falta la fecha/documento de una eventual transformación desde E.I.R.L.; esta incertidumbre histórica no afecta la identidad vigente ya confirmada. Véase `IDENTITY-VERIFICATION.md`.
 
 ## Fase 2 — 2 a 4 semanas

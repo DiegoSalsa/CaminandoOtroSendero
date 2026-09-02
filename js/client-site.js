@@ -233,24 +233,6 @@
     const formNote = document.getElementById('form-note');
     const submitButton = contactForm?.querySelector('button[type="submit"]');
 
-    if (contactForm) {
-        const requestedService = new URLSearchParams(window.location.search).get('servicio');
-        const serviceSelect = contactForm.elements.namedItem('service');
-        const serviceMap = {
-            'consultoria-ambiental': 'Consultoría ambiental',
-            'linea-base-artropodos': 'Línea base de artrópodos',
-            'linea-base-fauna': 'Línea base de fauna',
-            'monitoreo-biodiversidad': 'Monitoreo de biodiversidad',
-            'taxonomia-acuatica': 'Taxonomía acuática',
-            'educacion-ambiental': 'Educación ambiental',
-            'capacitaciones-ambientales': 'Capacitaciones ambientales'
-        };
-
-        if (serviceSelect instanceof HTMLSelectElement && requestedService && serviceMap[requestedService]) {
-            serviceSelect.value = serviceMap[requestedService];
-        }
-    }
-
     const setFormNote = (text, state) => {
         if (!formNote) return;
         formNote.textContent = text;
@@ -272,8 +254,7 @@
             email: String(data.get('email') || '').trim(),
             service: String(data.get('service') || '').trim(),
             message: String(data.get('message') || '').trim(),
-            website: String(data.get('website') || '').trim(),
-            privacyConsent: data.get('privacyConsent') === 'on'
+            website: String(data.get('website') || '').trim()
         };
 
         submitButton?.setAttribute('disabled', 'true');
@@ -291,7 +272,7 @@
                 throw new Error(result.error || 'No pudimos enviar tu consulta.');
             }
             contactForm.reset();
-            setFormNote('Recibimos tu consulta. Normalmente responderemos dentro de 2 días hábiles.', 'is-success');
+            setFormNote('Recibimos tu consulta. Te escribiremos a la brevedad.', 'is-success');
         } catch (error) {
             setFormNote(error.message || 'No pudimos enviar tu consulta. Inténtalo nuevamente.', 'is-error');
         } finally {
