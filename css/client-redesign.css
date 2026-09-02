@@ -540,7 +540,7 @@ p { margin-bottom: 20px; }
 .footer-logo { width: 118px; }
 .footer-grid p { margin: 0; color: var(--muted); }
 .footer-grid nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 14px 28px; }
-.footer-grid nav a, .footer-bottom a { font-weight: 600; text-decoration: none; }
+.footer-grid nav a, .footer-bottom a { font-size: .82rem; font-weight: 600; text-decoration: none; }
 .footer-grid nav a:hover, .footer-bottom a:hover { color: var(--orange-dark); }
 .footer-bottom { display: flex; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 25px; color: var(--muted); font-size: .83rem; }
 .footer-bottom p { margin: 0; }
