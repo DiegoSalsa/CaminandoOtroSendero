@@ -4,6 +4,9 @@ import { dirname, extname, join, relative, resolve, sep } from "node:path";
 const root = process.cwd();
 const canonicalOrigin = "https://www.caminandootrosendero.cl";
 const errors = [];
+const organizationId = `${canonicalOrigin}/#organization`;
+const servicePages = new Map();
+const organizationNodes = [];
 
 function walk(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -68,11 +71,44 @@ for (const absoluteFile of htmlFiles) {
     if (ogUrl && ogUrl !== canonical) errors.push(`${file}: og:url does not match canonical`);
   }
 
+  const jsonLdNodes = [];
   for (const match of html.matchAll(/<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     try {
-      JSON.parse(match[1]);
+      const json = JSON.parse(match[1]);
+      if (Array.isArray(json["@graph"])) jsonLdNodes.push(...json["@graph"]);
+      else jsonLdNodes.push(json);
     } catch (error) {
       errors.push(`${file}: invalid JSON-LD (${error.message})`);
+    }
+  }
+
+  if (file.startsWith("pages/servicios/") && file.endsWith(".html")) {
+    const service = jsonLdNodes.find((node) => node?.["@type"] === "Service" || node?.["@type"]?.includes?.("Service"));
+    const webPage = jsonLdNodes.find((node) => node?.["@type"] === "WebPage");
+    const serviceId = `${canonical}#service`;
+
+    if (!service) {
+      errors.push(`${file}: missing Service JSON-LD node`);
+    } else {
+      if (service.url !== canonical) errors.push(`${file}: Service.url must match the canonical URL`);
+      if (typeof service.description !== "string" || service.description.length < 40) {
+        errors.push(`${file}: Service.description must contain at least 40 characters`);
+      }
+      if (service.provider?.["@id"] !== organizationId) {
+        errors.push(`${file}: Service.provider must reference ${organizationId}`);
+      }
+      if (!service.areaServed) errors.push(`${file}: Service.areaServed is missing`);
+      if (service["@id"] !== serviceId) errors.push(`${file}: Service @id must be ${serviceId}`);
+    }
+    if (webPage?.mainEntity?.["@id"] !== serviceId) {
+      errors.push(`${file}: WebPage.mainEntity must reference ${serviceId}`);
+    }
+    servicePages.set(file, { canonical, serviceId });
+  }
+
+  for (const node of jsonLdNodes) {
+    if (node?.["@id"] === organizationId && Array.isArray(node?.["@type"]) && node["@type"].includes("Organization")) {
+      organizationNodes.push({ file, node });
     }
   }
 
@@ -94,6 +130,25 @@ for (const url of sitemapUrls) if (!canonicalUrls.has(url)) errors.push(`sitemap
 
 const robots = readFileSync(join(root, "robots.txt"), "utf8");
 if (!robots.includes(`Sitemap: ${canonicalOrigin}/sitemap.xml`)) errors.push("robots.txt: canonical sitemap URL is missing");
+
+if (servicePages.size !== 6) errors.push(`expected 6 service detail pages, found ${servicePages.size}`);
+
+const organizationCoreFields = [
+  "@type", "name", "legalName", "taxID", "url", "foundingDate", "description",
+  "email", "telephone", "logo", "address", "areaServed", "sameAs"
+];
+if (organizationNodes.length !== 4) {
+  errors.push(`expected 4 organization nodes, found ${organizationNodes.length}`);
+} else {
+  const baseline = organizationNodes[0];
+  for (const { file, node } of organizationNodes.slice(1)) {
+    for (const field of organizationCoreFields) {
+      if (JSON.stringify(node[field]) !== JSON.stringify(baseline.node[field])) {
+        errors.push(`${file}: Organization.${field} differs from ${baseline.file}`);
+      }
+    }
+  }
+}
 
 if (errors.length) {
   console.error(`SEO audit failed with ${errors.length} issue(s):`);

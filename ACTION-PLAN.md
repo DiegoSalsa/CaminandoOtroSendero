@@ -44,6 +44,16 @@
 | Media | Convertir galerías en evidencia | Contenido | M | Cada foto prioritaria tiene caption visible: actividad, región/ecosistema, período, método y enlace a servicio/caso. |
 | Media | Expandir Sobre nosotros y Publicaciones | Dirección + contenido | M | Biografía verificable; publicaciones con año, DOI/permalink, resumen y relación con servicios. |
 
+### Estado de ejecución — 2 de septiembre de 2026
+
+- [x] Las seis fichas de servicio alcanzan el estándar editorial: alcance, entradas, método, QA/QC, entregables, límites, responsable, fecha, fuentes y siguiente paso.
+- [x] Publicados tres casos documentales con evidencia original, contexto, territorio, objetivo, método, esfuerzo disponible, entregable, resultado permitido y limitaciones explícitas.
+- [x] Grafo de entidad consolidado: los cuatro nodos corporativos comparten un núcleo idéntico; LinkedIn permanece sólo en `Person`; no se publica una transición societaria histórica no documentada.
+- [x] `Service` schema completo para los seis servicios, enlazado como `WebPage.mainEntity` y comprobado por la auditoría local.
+- [x] Firmas, fechas y fuentes primarias incorporadas en las seis fichas técnicas.
+- [x] Galerías ampliadas con captions de evidencia y corregidas las descripciones cruzadas detectadas en la segunda página.
+- [x] Ampliadas las páginas “Sobre nosotros” y “Publicaciones” con biografía verificable, DOI/permalinks, resúmenes y vínculos hacia los servicios.
+
 ## Fase 3 — Medición y SEO local, 2 a 6 semanas
 
 | Prioridad | Acción | Responsable sugerido | Esfuerzo | Criterio de aceptación |
