@@ -27,7 +27,7 @@ Evidencia histórica consultada:
 
 Por seguridad, esta fase:
 
-1. Publica `legalName: Caminando Otro Sendero SpA`, `taxID: 76.932.987-0` y `foundingDate: 2018`, coherentes con los datos confirmados y declarados del sitio actual.
+1. Publica `legalName: Caminando Otro Sendero SpA` y `taxID: 76.932.987-0`, coherentes con los datos vigentes confirmados por el titular.
 2. Normaliza `name: Caminando Otro Sendero` como marca y `legalName` como razón social.
 3. Elimina el LinkedIn personal de `Organization.sameAs`; permanece únicamente en la entidad `Person`.
 
