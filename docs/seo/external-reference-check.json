@@ -1,0 +1,104 @@
+[
+  {
+    "url": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+    "status": 200,
+    "finalUrl": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://archive.epa.gov/water/archive/web/html/ch07main.html",
+    "status": 200,
+    "finalUrl": "https://archive.epa.gov/water/archive/web/html/ch07main.html",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://doi.org/10.7717/peerj.15020",
+    "status": 403,
+    "finalUrl": "https://peerj.com/articles/15020",
+    "assessment": "automated access inconclusive; bibliography verified via primary source/index"
+  },
+  {
+    "url": "https://nationalzoo.si.edu/conservation/news/house-hunters-amazing-arthropods",
+    "status": 200,
+    "finalUrl": "https://nationalzoo.si.edu/conservation/news/house-hunters-amazing-arthropods",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1017KQC.txt",
+    "status": 200,
+    "finalUrl": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1017KQC.txt",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://peerj.com/articles/15020/",
+    "status": 403,
+    "finalUrl": "https://peerj.com/articles/15020/",
+    "assessment": "automated access inconclusive; bibliography verified via primary source/index"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10158770/",
+    "status": 200,
+    "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10158770/",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://riverstreamassessment.epa.gov/webreport/",
+    "status": 200,
+    "finalUrl": "https://riverstreamassessment.epa.gov/webreport/",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://stri.si.edu/story/spider-verse",
+    "status": 403,
+    "finalUrl": "https://stri.si.edu/story/spider-verse",
+    "assessment": "automated access inconclusive; bibliography verified via primary source/index"
+  },
+  {
+    "url": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-benthic-macroinvertebrates",
+    "status": 200,
+    "finalUrl": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-benthic-macroinvertebrates",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.fao.org/pollination/en/",
+    "status": 200,
+    "finalUrl": "https://www.fao.org/pollination/en/",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.nps.gov/articles/denali-crp-arthropods.htm",
+    "status": 200,
+    "finalUrl": "https://www.nps.gov/articles/denali-crp-arthropods.htm",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.scielo.cl/scielo.php?pid=S0716-078X2003000200012&script=sci_arttext",
+    "status": 403,
+    "finalUrl": "https://www.scielo.cl/scielo.php?pid=S0716-078X2003000200012&script=sci_arttext",
+    "assessment": "automated access inconclusive; bibliography verified via primary source/index"
+  },
+  {
+    "url": "https://www.sea.gob.cl/guias-sobre-metodologias-y-modelos",
+    "status": 200,
+    "finalUrl": "https://www.sea.gob.cl/guias-sobre-metodologias-y-modelos",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2025/03/21/G_Met_Descripcion_ecosistemas_terrestres_2025_Segunda_edicion.pdf",
+    "status": 200,
+    "finalUrl": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2025/03/21/G_Met_Descripcion_ecosistemas_terrestres_2025_Segunda_edicion.pdf",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.usgs.gov/publications/a-digital-reference-collection-aquatic-macroinvertebrates-north-america",
+    "status": 200,
+    "finalUrl": "https://www.usgs.gov/publications/a-digital-reference-collection-aquatic-macroinvertebrates-north-america",
+    "assessment": "responds"
+  },
+  {
+    "url": "https://www.usgs.gov/scientific-collections/glossary-terms",
+    "status": 200,
+    "finalUrl": "https://www.usgs.gov/scientific-collections/glossary-terms",
+    "assessment": "responds"
+  }
+]

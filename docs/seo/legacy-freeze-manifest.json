@@ -1,6 +1,6 @@
 {
   "baseCommit": "4b999ae6cd113a1d60a7378b0c2b58046fcc57fa",
-  "allowedInsertion": "<a href=\"/pages/recursos\">Centro de conocimiento</a>",
+  "allowedInsertion": "<a href=\"/pages/recursos\" style=\"position:absolute;align-self:flex-end;transform:translateY(28px)\">Centro de conocimiento</a>",
   "files": [
     {
       "path": ".env.example",

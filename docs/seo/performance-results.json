@@ -1,0 +1,362 @@
+[
+  {
+    "path": "/pages/recursos",
+    "fetchTime": "2026-09-04T03:59:04.531Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 34451,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/entomofauna",
+    "fetchTime": "2026-09-04T03:59:12.988Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 39568,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_entomofauna.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/insectos-estudios-ambientales",
+    "fetchTime": "2026-09-04T03:59:21.897Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 39501,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_insectos-estudios-ambientales.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/aracnidos-estudios-ambientales",
+    "fetchTime": "2026-09-04T03:59:30.854Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 38998,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_aracnidos-estudios-ambientales.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/muestreo-entomofauna",
+    "fetchTime": "2026-09-04T03:59:39.581Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 38721,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_muestreo-entomofauna.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/macroinvertebrados-bentonicos",
+    "fetchTime": "2026-09-04T03:59:48.400Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 39904,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_macroinvertebrados-bentonicos.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/macroinvertebrados-bioindicadores",
+    "fetchTime": "2026-09-04T03:59:57.308Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1260,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 39972,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_macroinvertebrados-bioindicadores.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/identificacion-taxonomica-macroinvertebrados",
+    "fetchTime": "2026-09-04T04:00:06.658Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1260,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 40042,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_identificacion-taxonomica-macroinvertebrados.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/autores/luis-carrera-suarez",
+    "fetchTime": "2026-09-04T04:00:16.004Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 1110,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 34865,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_autores_luis-carrera-suarez.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  },
+  {
+    "path": "/pages/recursos/autores",
+    "fetchTime": "2026-09-04T04:00:24.594Z",
+    "lighthouseVersion": "13.4.1",
+    "formFactor": "mobile",
+    "throttlingMethod": "simulate",
+    "performance": 100,
+    "accessibility": 100,
+    "seo": 100,
+    "bestPractices": 100,
+    "lcpMs": 960,
+    "cls": 0,
+    "tbtMs": 0,
+    "transferBytes": 30754,
+    "failedAudits": [
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "score": 0.5
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "score": 0.5
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0
+      }
+    ],
+    "report": ".seo-cache/lighthouse-resources/_pages_recursos_autores.json",
+    "runWarnings": [],
+    "reportReused": true,
+    "environmentNote": "Complete measurement report; initial CLI runs returned EPERM during Windows temporary-profile cleanup after saving the report. No Lighthouse runtimeError."
+  }
+]

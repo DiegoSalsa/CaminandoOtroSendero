@@ -1,0 +1,346 @@
+{
+  "liveState": "No deployment performed; live body equality confirms the published site was not altered. Local regression verifies the implementation.",
+  "remote": [
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/publicaciones",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "fb9ce151abe4836803b9cda5ef0a739b28456c866cb97a10c2ef98238142f6a9",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/educacion-ambiental",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "dc5e2d6542e9b1346cd4209230afd96b79efcbfd2eae32eb6100ba99fdaf0a20",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/linea-base-terrestre",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "18e1cee2886e216c16c309067e4002e7209c8180c1584794da36842c91f74eed",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/monitoreo-biodiversidad",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "8f0a57a4c4eacd2e6b6eeaca44a7e417da1a0370bcd71fa5ae663f14d7d91bd1",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/contacto",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "519d11fceb8239520901d16696eeddef4f0147131e3c71712c8ad6fb7ff8411b",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/linea-base-artropodos",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "4785333d178d58a6c7c9af4a407ae98bbb8633f8138c84ecfefdbb1aa62c1f5b",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/taxonomia-acuatica",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "9cff55f1042f3e58500f86d3c6a76a0c89d73d7d213a16df1f2470a19adc0a4a",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/galeria",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "cdbfa510ae913c9e848b8ed9852f47489e328545a86ee4c9969a07d12631b929",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "09d0dd3175e1f99a80b1a20541ec6356836616867d0046de0de3ab987f879b4d",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/privacidad",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "2005e0b4695545f9e6a6020cb22936027f6d62e47f405906031f192e35e99fc0",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/servicios/capacitaciones",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "8c943683e4c6b9358ef25d80ade983c4dee5131b236b1cfcd95f9c668c88ede5",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/sobre-nosotros",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "80e34350b3745cff796f8ba92892d7ffc5420b0cb98d9fde1134ce7d5a5ee9c6",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "2829489944917df17c3ce697e2ea3b1748fab303a7612ecda8a6e0ca3f2addc8",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/casos",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "736b5e9ee29043cf63967f173d011eed5b6a24223d5c83e50e6454bdf9f78479",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/consultora-ambiental-concepcion",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "8e9e47eb34bd3d8f025dbe32b05b97c75acf9b0354a4c8c3fa82b2a41804ac96",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/pages/galeria-2",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "c53d268ebf5217850ce5c682a59d27622f856fce743faf17450dcda7e8a06c4d",
+      "passed": true
+    },
+    {
+      "url": "https://caminandootrosendero.cl/",
+      "status": 308,
+      "statusBefore": 308,
+      "location": "https://www.caminandootrosendero.cl/",
+      "locationBefore": "https://www.caminandootrosendero.cl/",
+      "bodyIdentical": true,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "passed": true
+    },
+    {
+      "url": "https://caminandootrosendero.cl/llms.txt",
+      "status": 308,
+      "statusBefore": 308,
+      "location": "https://www.caminandootrosendero.cl/llms.txt",
+      "locationBefore": "https://www.caminandootrosendero.cl/llms.txt",
+      "bodyIdentical": true,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "passed": true
+    },
+    {
+      "url": "https://caminandootrosendero.cl/robots.txt",
+      "status": 308,
+      "statusBefore": 308,
+      "location": "https://www.caminandootrosendero.cl/robots.txt",
+      "locationBefore": "https://www.caminandootrosendero.cl/robots.txt",
+      "bodyIdentical": true,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/llms.txt",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "3635de10d923bc7d868e4bd87a01d389d98209c8db1e1d51ce86f5d57abe8401",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/robots.txt",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "b8c72f0384e116b9d661c51ce797a0b631ca9feb217497d695289061a3625dd4",
+      "passed": true
+    },
+    {
+      "url": "https://www.caminandootrosendero.cl/sitemap.xml",
+      "status": 200,
+      "statusBefore": 200,
+      "location": null,
+      "locationBefore": null,
+      "bodyIdentical": true,
+      "sha256": "a5597cbd3ae833124059af923d68185a99004d849c208e075dbaddbeb2164159",
+      "passed": true
+    }
+  ],
+  "local": [
+    {
+      "path": "/",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/blog",
+      "status": 308,
+      "expectedStatus": 308,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/casos",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/consultora-ambiental-concepcion",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/contacto",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/galeria-2",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/galeria",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/privacidad",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/publicaciones",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/capacitaciones",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/educacion-ambiental",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/linea-base-artropodos",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/linea-base-terrestre",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/monitoreo-biodiversidad",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/servicios/taxonomia-acuatica",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    },
+    {
+      "path": "/pages/sobre-nosotros",
+      "status": 200,
+      "expectedStatus": 200,
+      "unchangedExceptFooter": true,
+      "passed": true
+    }
+  ]
+}

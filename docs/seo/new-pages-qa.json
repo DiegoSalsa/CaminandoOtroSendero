@@ -1,0 +1,239 @@
+{
+  "origin": "http://127.0.0.1:4173",
+  "reports": [
+    {
+      "path": "/pages/recursos",
+      "status": 200,
+      "title": "Centro de conocimiento ambiental | Caminando Otro Sendero",
+      "descriptionLength": 148,
+      "introWords": 56,
+      "wordCount": 419,
+      "htmlBytes": 8918,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/entomofauna",
+      "status": 200,
+      "title": "Entomofauna: qué es y cómo se estudia | Caminando Otro Sendero",
+      "descriptionLength": 143,
+      "introWords": 56,
+      "wordCount": 1014,
+      "htmlBytes": 14035,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/insectos-estudios-ambientales",
+      "status": 200,
+      "title": "Insectos en estudios y líneas base ambientales",
+      "descriptionLength": 143,
+      "introWords": 56,
+      "wordCount": 991,
+      "htmlBytes": 13968,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/aracnidos-estudios-ambientales",
+      "status": 200,
+      "title": "Arácnidos en estudios y líneas base ambientales",
+      "descriptionLength": 138,
+      "introWords": 56,
+      "wordCount": 955,
+      "htmlBytes": 13465,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/muestreo-entomofauna",
+      "status": 200,
+      "title": "Muestreo de entomofauna: métodos y límites",
+      "descriptionLength": 144,
+      "introWords": 54,
+      "wordCount": 958,
+      "htmlBytes": 13188,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/macroinvertebrados-bentonicos",
+      "status": 200,
+      "title": "Macroinvertebrados bentónicos: qué son y cómo estudiarlos",
+      "descriptionLength": 147,
+      "introWords": 56,
+      "wordCount": 991,
+      "htmlBytes": 14371,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/macroinvertebrados-bioindicadores",
+      "status": 200,
+      "title": "Macroinvertebrados como bioindicadores: alcance y límites",
+      "descriptionLength": 142,
+      "introWords": 54,
+      "wordCount": 1004,
+      "htmlBytes": 14439,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/identificacion-taxonomica-macroinvertebrados",
+      "status": 200,
+      "title": "Identificación taxonómica de macroinvertebrados",
+      "descriptionLength": 143,
+      "introWords": 55,
+      "wordCount": 1037,
+      "htmlBytes": 14509,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/autores/luis-carrera-suarez",
+      "status": 200,
+      "title": "Luis E. Carrera Suárez: trayectoria y publicación científica",
+      "descriptionLength": 147,
+      "introWords": 53,
+      "wordCount": 463,
+      "htmlBytes": 9332,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    },
+    {
+      "path": "/pages/recursos/autores",
+      "status": 200,
+      "title": "Autores y especialistas | Caminando Otro Sendero",
+      "descriptionLength": 150,
+      "introWords": 56,
+      "wordCount": 185,
+      "htmlBytes": 5221,
+      "runtimeScripts": 0,
+      "consoleErrors": [],
+      "a11y": [],
+      "mobileOverflow": false
+    }
+  ],
+  "linkResults": [
+    {
+      "target": "/assets/client/logo-client-280.webp",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/servicios",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/sobre-nosotros",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/contacto",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/entomofauna",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/insectos-estudios-ambientales",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/aracnidos-estudios-ambientales",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/muestreo-entomofauna",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/macroinvertebrados-bentonicos",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/macroinvertebrados-bioindicadores",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/identificacion-taxonomica-macroinvertebrados",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/autores",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos/autores/luis-carrera-suarez",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/publicaciones",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/recursos",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/privacidad",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/servicios/linea-base-artropodos",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/servicios/taxonomia-acuatica",
+      "status": 200,
+      "fragmentValid": true
+    },
+    {
+      "target": "/pages/sobre-nosotros#luis-carrera",
+      "status": 200,
+      "fragmentValid": true
+    }
+  ],
+  "reachable": 10,
+  "errors": []
+}

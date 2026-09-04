@@ -1,0 +1,126 @@
+archivo,tipo
+content/recursos/aracnidos-estudios-ambientales.json,nuevo
+content/recursos/entomofauna.json,nuevo
+content/recursos/identificacion-taxonomica-macroinvertebrados.json,nuevo
+content/recursos/insectos-estudios-ambientales.json,nuevo
+content/recursos/macroinvertebrados-bentonicos.json,nuevo
+content/recursos/macroinvertebrados-bioindicadores.json,nuevo
+content/recursos/muestreo-entomofauna.json,nuevo
+content/recursos/sources.json,nuevo
+css/recursos.css,nuevo
+docs/seo/IMPLEMENTATION.md,nuevo
+docs/seo/entity-consistency-checklist.md,nuevo
+docs/seo/external-reference-check.json,nuevo
+docs/seo/footer-responsive-qa.json,nuevo
+docs/seo/internal-link-map.csv,nuevo
+docs/seo/keyword-map.csv,nuevo
+docs/seo/legacy-freeze-baseline.md,nuevo
+docs/seo/legacy-freeze-manifest.json,nuevo
+docs/seo/legacy-live-before.json,nuevo
+docs/seo/legacy-page-inventory.json,nuevo
+docs/seo/legacy-regression-results.json,nuevo
+docs/seo/legacy-visual-after.json,nuevo
+docs/seo/legacy-visual-baseline.json,nuevo
+docs/seo/legacy-visual-comparison.json,nuevo
+docs/seo/legacy-visual-verified-before.json,nuevo
+docs/seo/new-files.csv,nuevo
+docs/seo/new-pages-qa.json,nuevo
+docs/seo/new-url-inventory.csv,nuevo
+docs/seo/offpage-domain-classification.csv,nuevo
+docs/seo/offpage-opportunities.md,nuevo
+docs/seo/performance-results.json,nuevo
+docs/seo/qa-report.md,nuevo
+docs/seo/service-validation-needed.md,nuevo
+docs/seo/source-verification.md,nuevo
+pages/recursos.html,nuevo
+pages/recursos/aracnidos-estudios-ambientales.html,nuevo
+pages/recursos/autores.html,nuevo
+pages/recursos/autores/luis-carrera-suarez.html,nuevo
+pages/recursos/entomofauna.html,nuevo
+pages/recursos/identificacion-taxonomica-macroinvertebrados.html,nuevo
+pages/recursos/insectos-estudios-ambientales.html,nuevo
+pages/recursos/macroinvertebrados-bentonicos.html,nuevo
+pages/recursos/macroinvertebrados-bioindicadores.html,nuevo
+pages/recursos/muestreo-entomofauna.html,nuevo
+screenshots/seo-freeze/after/index.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_casos.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_consultora-ambiental-concepcion.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_contacto.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_galeria-2.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_galeria.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_privacidad.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_publicaciones.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_capacitaciones.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_educacion-ambiental.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_linea-base-artropodos.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_linea-base-terrestre.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_monitoreo-biodiversidad.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_servicios_taxonomia-acuatica.html.png,evidencia visual local
+screenshots/seo-freeze/after/pages_sobre-nosotros.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/index.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_casos.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_consultora-ambiental-concepcion.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_contacto.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_galeria-2.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_galeria.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_privacidad.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_publicaciones.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_capacitaciones.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_educacion-ambiental.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_linea-base-artropodos.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_linea-base-terrestre.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_monitoreo-biodiversidad.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_servicios_taxonomia-acuatica.html.png,evidencia visual local
+screenshots/seo-freeze/baseline/pages_sobre-nosotros.html.png,evidencia visual local
+screenshots/seo-freeze/diff-pages_galeria-2.html.png,evidencia visual local
+screenshots/seo-freeze/diff-pages_galeria.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/index.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_casos.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_consultora-ambiental-concepcion.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_contacto.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_galeria-2.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_galeria.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_privacidad.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_publicaciones.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_capacitaciones.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_educacion-ambiental.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_linea-base-artropodos.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_linea-base-terrestre.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_monitoreo-biodiversidad.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_servicios_taxonomia-acuatica.html.png,evidencia visual local
+screenshots/seo-freeze/verified-before/pages_sobre-nosotros.html.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_aracnidos-estudios-ambientales-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_aracnidos-estudios-ambientales-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_autores-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_autores-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_autores_luis-carrera-suarez-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_autores_luis-carrera-suarez-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_entomofauna-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_entomofauna-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_identificacion-taxonomica-macroinvertebrados-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_identificacion-taxonomica-macroinvertebrados-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_insectos-estudios-ambientales-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_insectos-estudios-ambientales-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_macroinvertebrados-bentonicos-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_macroinvertebrados-bentonicos-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_macroinvertebrados-bioindicadores-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_macroinvertebrados-bioindicadores-mobile.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_muestreo-entomofauna-desktop.png,evidencia visual local
+screenshots/seo-resources/_pages_recursos_muestreo-entomofauna-mobile.png,evidencia visual local
+scripts/build-resources.py,nuevo
+scripts/check-footer-mobile.mjs,nuevo
+scripts/check-legacy-freeze.mjs,nuevo
+scripts/check-resources.mjs,nuevo
+scripts/compare-legacy-visual.py,nuevo
+scripts/document-seo-research.py,nuevo
+scripts/measure-resources.mjs,nuevo
+scripts/seo-preview.mjs,nuevo
+scripts/seo-regression.py,nuevo
+scripts/seo-visual-qa.mjs,nuevo
+scripts/test-legacy-freeze.mjs,nuevo
+sitemap-recursos.xml,nuevo

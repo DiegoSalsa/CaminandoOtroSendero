@@ -1,0 +1,434 @@
+[
+  {
+    "path": "/",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/casos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/casos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/casos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/consultora-ambiental-concepcion",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/consultora-ambiental-concepcion",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/consultora-ambiental-concepcion",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/contacto",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/contacto",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/contacto",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria-2",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria-2",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria-2",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/galeria",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/privacidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/privacidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/privacidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/publicaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/publicaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/publicaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/capacitaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/capacitaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/capacitaciones",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/educacion-ambiental",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/educacion-ambiental",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/educacion-ambiental",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-artropodos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-artropodos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-artropodos",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-terrestre",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-terrestre",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/linea-base-terrestre",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/monitoreo-biodiversidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/monitoreo-biodiversidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/monitoreo-biodiversidad",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/taxonomia-acuatica",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/taxonomia-acuatica",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/servicios/taxonomia-acuatica",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/sobre-nosotros",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 320,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/sobre-nosotros",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 390,
+    "overlaps": [],
+    "visible": true
+  },
+  {
+    "path": "/pages/sobre-nosotros",
+    "width": 154.03125,
+    "left": 14,
+    "right": 168.03125,
+    "viewport": 768,
+    "overlaps": [],
+    "visible": true
+  }
+]

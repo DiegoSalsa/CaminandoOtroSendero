@@ -1,0 +1,226 @@
+[
+  {
+    "file": "index.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      5071,
+      1342,
+      5097
+    ]
+  },
+  {
+    "file": "pages/casos.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      4662,
+      1342,
+      4688
+    ]
+  },
+  {
+    "file": "pages/consultora-ambiental-concepcion.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      4847,
+      1342,
+      4872
+    ]
+  },
+  {
+    "file": "pages/contacto.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      2567,
+      1342,
+      2592
+    ]
+  },
+  {
+    "file": "pages/galeria-2.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      3345,
+      1342,
+      3371
+    ]
+  },
+  {
+    "file": "pages/galeria.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      3507,
+      1342,
+      3532
+    ]
+  },
+  {
+    "file": "pages/privacidad.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      3111,
+      1342,
+      3137
+    ]
+  },
+  {
+    "file": "pages/publicaciones.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      3616,
+      1342,
+      3641
+    ]
+  },
+  {
+    "file": "pages/servicios.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      6265,
+      1342,
+      6291
+    ]
+  },
+  {
+    "file": "pages/servicios/capacitaciones.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      5357,
+      1342,
+      5383
+    ]
+  },
+  {
+    "file": "pages/servicios/educacion-ambiental.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      6322,
+      1342,
+      6347
+    ]
+  },
+  {
+    "file": "pages/servicios/linea-base-artropodos.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      7820,
+      1342,
+      7845
+    ]
+  },
+  {
+    "file": "pages/servicios/linea-base-terrestre.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      6052,
+      1342,
+      6077
+    ]
+  },
+  {
+    "file": "pages/servicios/monitoreo-biodiversidad.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      6071,
+      1342,
+      6097
+    ]
+  },
+  {
+    "file": "pages/servicios/taxonomia-acuatica.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      6148,
+      1342,
+      6173
+    ]
+  },
+  {
+    "file": "pages/sobre-nosotros.html",
+    "sameDimensions": true,
+    "domEqual": true,
+    "diffBoundingBox": null,
+    "passPixels": true,
+    "footerLinks": 1,
+    "maskedOnlyNewLink": [
+      1183,
+      3961,
+      1342,
+      3987
+    ]
+  }
+]
