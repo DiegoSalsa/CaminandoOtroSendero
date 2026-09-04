@@ -1,0 +1,58 @@
+/* Isolated knowledge centre. Loaded only by new resources; no legacy imports. */
+body.resource-site { --forest:#203525; --ink:#172019; --cream:#f6f3eb; --muted:#526055; --orange:#a83f13; margin:0; color:var(--ink); background:#fff; font-family:"DM Sans",system-ui,sans-serif; font-size:17px; line-height:1.75; }
+.resource-site *, .resource-site *::before, .resource-site *::after { box-sizing:border-box; }
+.resource-site a { color:var(--forest); text-underline-offset:.22em; }
+.resource-site a:hover { color:var(--orange); }
+.resource-site :focus-visible { outline:3px solid var(--orange); outline-offset:5px; }
+.resource-site .r-wrap { width:min(1160px,calc(100% - 48px)); margin-inline:auto; }
+.resource-site .r-skip { position:absolute; left:20px; top:-100px; padding:12px; background:#fff; z-index:5; }
+.resource-site .r-skip:focus { top:12px; }
+.resource-site .r-header { border-bottom:1px solid #d9ded8; }
+.resource-site .r-header .r-wrap { display:flex; align-items:center; justify-content:space-between; gap:24px; padding-block:15px; }
+.resource-site .r-brand { display:flex; align-items:center; gap:15px; text-decoration:none; font-weight:700; font-size:15px; line-height:1.3; }
+.resource-site .r-brand img { width:64px; height:64px; object-fit:contain; }
+.resource-site .r-header nav { display:flex; gap:26px; flex-wrap:wrap; font-size:14px; }
+.resource-site .r-header nav a { text-decoration:none; padding-block:9px; }
+.resource-site .r-hero { background:var(--cream); padding:30px 0 56px; border-bottom:1px solid #e5e1d7; }
+.resource-site .r-breadcrumb ol { display:flex; gap:8px; flex-wrap:wrap; list-style:none; padding:0; margin:0 0 35px; font-size:13px; color:var(--muted); }
+.resource-site .r-breadcrumb li+li::before { content:"/"; margin-right:8px; color:var(--muted); }
+.resource-site .r-eyebrow { color:var(--orange); font-size:12px; font-weight:750; letter-spacing:.13em; text-transform:uppercase; margin:0 0 15px; }
+.resource-site h1, .resource-site h2, .resource-site h3 { font-family:"Libre Franklin",system-ui,sans-serif; color:var(--forest); line-height:1.18; letter-spacing:-.035em; }
+.resource-site h1 { font-size:clamp(2rem,4.5vw,3.75rem); max-width:950px; margin:0 0 25px; }
+.resource-site h2 { font-size:clamp(1.6rem,2.6vw,2.05rem); margin:0 0 22px; }
+.resource-site h3 { font-size:1.18rem; margin:0 0 12px; }
+.resource-site .r-intro { max-width:830px; font-size:1.15rem; margin:0; }
+.resource-site .r-meta { font-size:13px; color:var(--muted); margin:24px 0 0; }
+.resource-site .r-body { display:grid; grid-template-columns:minmax(0,780px) 270px; gap:70px; padding-block:56px 80px; align-items:start; }
+.resource-site .r-prose section { margin-bottom:46px; scroll-margin-top:24px; }
+.resource-site .r-prose p { margin:0 0 20px; }
+.resource-site .r-prose { min-width:0; }
+.resource-site .r-aside { background:var(--cream); padding:25px; border-radius:16px; font-size:14px; }
+.resource-site .r-aside h2 { font-size:1.05rem; letter-spacing:0; }
+.resource-site .r-aside ol { padding-left:20px; margin:0; }
+.resource-site .r-aside li { margin-block:12px; }
+.resource-site .r-citations { font-size:13px; color:var(--muted); }
+.resource-site .r-note, .resource-site .r-service { padding:25px; border-left:3px solid var(--orange); background:var(--cream); }
+.resource-site .r-service h2 { font-size:1.3rem; }
+.resource-site .r-reference { font-size:14px; overflow-wrap:anywhere; }
+.resource-site .r-reference li { margin-bottom:19px; scroll-margin-top:20px; }
+.resource-site .r-reference small { display:block; color:var(--muted); }
+.resource-site .r-faq { margin-block:23px; }
+.resource-site .r-hub { padding-block:55px 75px; }
+.resource-site .r-category { margin-bottom:55px; }
+.resource-site .r-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.resource-site .r-card { border:1px solid #d4dbd1; border-radius:16px; padding:28px; background:white; }
+.resource-site .r-card h3 a { text-decoration:none; }
+.resource-site .r-card h3 a:hover { text-decoration:underline; }
+.resource-site .r-card p { margin:0; color:var(--muted); font-size:15px; }
+.resource-site .r-card .r-card-link { display:inline-block; margin-top:20px; font-size:14px; font-weight:700; }
+.resource-site .r-footer { background:var(--forest); color:#fff; padding-block:35px; font-size:14px; }
+.resource-site .r-footer a { color:#fff; }
+.resource-site .r-footer .r-wrap { display:flex; flex-wrap:wrap; gap:15px 30px; justify-content:space-between; }
+.resource-site .r-footer p { margin:0; }
+.resource-site .r-person { padding:26px; border:1px solid #d4dbd1; border-radius:16px; }
+.resource-site .r-person p { font-size:15px; }
+@media(max-width:850px) { .resource-site .r-body { display:flex; flex-direction:column; gap:35px; } .resource-site .r-aside { order:-1; width:100%; } }
+@media(max-width:600px) { .resource-site .r-wrap { width:calc(100% - 32px); } .resource-site .r-header .r-wrap { align-items:flex-start; gap:12px; flex-direction:column; } .resource-site .r-header nav { gap:22px; } .resource-site .r-grid { grid-template-columns:1fr; } .resource-site .r-hero { padding-bottom:35px; } .resource-site .r-body { padding-block:30px 50px; } .resource-site .r-card { padding:23px; } }
+@media(prefers-reduced-motion:reduce) { .resource-site { scroll-behavior:auto; } }
+@media print { .resource-site .r-header, .resource-site .r-aside, .resource-site .r-footer { display:none; } .resource-site .r-body { display:block; } .resource-site .r-hero { background:white; } }
