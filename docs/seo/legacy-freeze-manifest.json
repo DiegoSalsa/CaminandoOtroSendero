@@ -1,0 +1,996 @@
+{
+  "baseCommit": "4b999ae6cd113a1d60a7378b0c2b58046fcc57fa",
+  "allowedInsertion": "<a href=\"/pages/recursos\">Centro de conocimiento</a>",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "d37f3a1b87d0e21221bb40be1e9576fae826d59af996c42512cf54d79ae8b31d",
+      "footerInsertion": false
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "73676ba0fc180533f0e1fd580d63306497de881328617b7bf116b10f4610d5ac",
+      "footerInsertion": false
+    },
+    {
+      "path": ".vercelignore",
+      "sha256": "d092c10b487e1e5fea72707ab4f7d1280bae5276619d87c94344aff038919c86",
+      "footerInsertion": false
+    },
+    {
+      "path": "2b21c282b02a490a9c3bbce2d260ceda.txt",
+      "sha256": "df36ea05a9d1a8f235d309c7c2fdaa10bbb14d6019dcd6a8c82417a7755bef2f",
+      "footerInsertion": false
+    },
+    {
+      "path": "ACTION-PLAN.md",
+      "sha256": "6e2d265f7a9d7bbbe525698f293262e95e4cb73557c75939cf5d52f439e81c6a",
+      "footerInsertion": false
+    },
+    {
+      "path": "FULL-AUDIT-REPORT.md",
+      "sha256": "11226fd86259f8c954ca498a251c7dee5f0ec2824fcf9cff7430bdc863e2646d",
+      "footerInsertion": false
+    },
+    {
+      "path": "IDENTITY-VERIFICATION.md",
+      "sha256": "c5d8ec2ac8a2ed82530a8b083275ee92bd177110d26d2eb00fc580d01f00e037",
+      "footerInsertion": false
+    },
+    {
+      "path": "README.md",
+      "sha256": "677beb8230f34895d167dffe3c44b54e3dba1a7cff8ea54820872e1dd00cbe6a",
+      "footerInsertion": false
+    },
+    {
+      "path": "SEO-AEO-GEO-STUDY.md",
+      "sha256": "d22551949bcf0e2823488a79580817027d6bce3d76f0ea9b2096d0d97c79827b",
+      "footerInsertion": false
+    },
+    {
+      "path": "SEO-ROADMAP.md",
+      "sha256": "fad15eeaaa1fe6da8be95922f849a20da1b2229c73db66513c64bdb81564ee67",
+      "footerInsertion": false
+    },
+    {
+      "path": "api/contact.js",
+      "sha256": "69050977156d9c41f4095bb63a12290d6721ff44f71805b2604a8e74f1b7cc63",
+      "footerInsertion": false
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "sha256": "25c2d94997dc6014166a71ccc632dfae90d98c8bc270d73f83d661e8f6208bc0",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/about-field.jpg",
+      "sha256": "b13499edaebd2308c4958a5890901f795d776801c139cf5a49f5a800b243cf3e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/apple-touch-icon.png",
+      "sha256": "25c2d94997dc6014166a71ccc632dfae90d98c8bc270d73f83d661e8f6208bc0",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/education-field.jpg",
+      "sha256": "a6d85675c09e15e4f14e9e156af95a8af793215d513a16d8fb9fa3f753f0e4c8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-16.png",
+      "sha256": "d85242038509b29c4aac6c75dec4cc9aeb59dd4b0e1c3131bb96365947bab51a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-192.png",
+      "sha256": "27320589b4ad64fd12c4be16d1821ccbaae2e1cfbb48a0c3566b0f3103213e53",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-32.png",
+      "sha256": "68d1fb4d2bca12777a5c461b07c68ac8b437ac746538e3cb6b889a96ec94c002",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-48.png",
+      "sha256": "248c76311ede6cf6ff5da9bd6818dbab9d9cfed5b31a0d2220c37de87d230dae",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-512-maskable.png",
+      "sha256": "611efb34cbec99b57cd20abe589160d9e82ebebb62bd12aa3f74bf953a656f14",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-512.png",
+      "sha256": "55b2767e088234125ea4ebba92a37b43af46b5cfffc8b9865b350df195bdd81e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/favicon-master.png",
+      "sha256": "ca06f2840678d582586de6a23474aca1611e486b7c81ee2013d791181b5c3799",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-aquatic-invertebrate.jpg",
+      "sha256": "c6b5d4fc7ecf5c88b87821bdb3e16b7e3efc790cb9f0295aac51d7f8cf673b72",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-aquatic-organism.jpg",
+      "sha256": "b1f8da4e6fcb722954a28377944731b927a6a0a1e66f00eb828913bf44c1a7cd",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-birdwatching.jpg",
+      "sha256": "30622801cbd8351f5202d0059a95f9c6aadec3247dc4288c690c51afa454a7db",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-classroom-talk.jpg",
+      "sha256": "cd336024d277f58f6c4fb9f7bd4ebd7a6d11d2b039dfd33985351e2fd69c6b87",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-desert-entomology.jpg",
+      "sha256": "759a3bba9dcc09b35135f24b0a931fd5cc1d9b87fdbb2497d0a480f60901a5aa",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-diatom.jpg",
+      "sha256": "ab098563a5dd6fd7552fe75813ad4c4058d07421a344ee746526074131c514d4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-environmental-workshop.jpg",
+      "sha256": "3a30145694540e4640c6d1cf825b22431ace85c023ecbc9a326e8fe03f6858e9",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-family-trail.jpg",
+      "sha256": "01c670811c960f03c1118bf82c8341d178b336cc06d62952d8e8b5a195cbf1ab",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-field-learning.jpeg",
+      "sha256": "b64309574afc2a5c3ec13e18757edaa73529ff7a4a7fbaa441404af2d5328860",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-field-sampling.jpg",
+      "sha256": "5ada4419f8d7ca77cb486787eec98cb8eb8c882304572f067d2783750601358b",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-gps-monitoring.jpg",
+      "sha256": "7e7afc986d04a0472a40a3dbd772a470d96ad0cf95f5cd3e93d524381cb08396",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-insect-activity.jpg",
+      "sha256": "77111cc9a1db5284aed8a199b9f69d7884a1a0831501e2b43a2419924b81926e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-microscope-workshop.jpg",
+      "sha256": "a421b82e1deac87626aec3505e512aabcf273a7c4cb1753fe7791f678bc31c46",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-moth.jpg",
+      "sha256": "e0096c039e5c0a9f636f56c7249a1ccea8c1677157880cb349f15a4242c154ff",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-nature-connection.jpg",
+      "sha256": "ad32a4627fe26d57765e1459c53d0b21e6cbf47485ccfd46ec1af3aac97f7286",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-outdoor-interpretation.jpg",
+      "sha256": "eabb873499c03ec29e08e3b4d7a4cf180f8f7c940848eafaed7b68eb4f565a86",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-school-laboratory.jpg",
+      "sha256": "effbb5b3a3bb1fb232c01d1f49fbcaaf3d0657317f28542f23c50afee5c76b6a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-tarantula-field.jpg",
+      "sha256": "3757282e3d721884d0162c14f9f92991e4f35de084410d541691baf19a2f8de8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-tarantula.jpg",
+      "sha256": "ea85ff2ea4a81a22822df967090ca177f8323dc31f829c0fe41beda68ca04c71",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/gallery-taxonomy-workshop.jpg",
+      "sha256": "596413ec89222a6ba6af70c10805f2fa957d17aa471549e728aa43869ace116c",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/hero-field.jpg",
+      "sha256": "9e378f58f7d6ef1bc82dc9a8e70a4c3a144719d8ad8705d9a54fd59772986339",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/hero-insect.jpg",
+      "sha256": "a932bbf5bde39725341f858b9538a0f5c12b9aefcb8bdb57e9bd637eec653fbb",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/hero-team.jpg",
+      "sha256": "f309a412f40b965309a637386c6079648ae9ff7e655fa06793010aac82d3ae69",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/logo-client-2026.png",
+      "sha256": "82425ef62ed36c8ffbe5fe191037a9627321de9bc21fc30f908729109ecffecd",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/logo-client-2026.webp",
+      "sha256": "a86737af39c1f6363f7ab783063ba7998b311258801b2ff33b531c5e1587b584",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/logo-client-280.webp",
+      "sha256": "073b0d052e6f618091221f0a6b55b71bb963f5031c23d3585ee880af0241d58f",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/logo.png",
+      "sha256": "4c9fc9c49bc48a33d64c6bed9c969d6db5fb9d4ea32d81dda9388cdff1c079f5",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/publications-field.jpeg",
+      "sha256": "d29932682387a9f92564e5174d524c990831021a06d1f6cf29b651a9c7cdb6f0",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/client/services-taxonomy.png",
+      "sha256": "27b8bf5c77f5ec205970d4832539579a2a0f30b17116adb02ccaad1b3197803a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/favicon.png",
+      "sha256": "07ae31220bf402829602214e802a5e5f5b2d7dc2fdca4241498ff3d3e9631760",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/header1.jpg",
+      "sha256": "23bc48313a4da192b4ae630abdc30a9b9f90955ae4ae6fa3008610f118f0f6f4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/header2.jpg",
+      "sha256": "23bc48313a4da192b4ae630abdc30a9b9f90955ae4ae6fa3008610f118f0f6f4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/header3.jpg",
+      "sha256": "23bc48313a4da192b4ae630abdc30a9b9f90955ae4ae6fa3008610f118f0f6f4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/header4.jpg",
+      "sha256": "23bc48313a4da192b4ae630abdc30a9b9f90955ae4ae6fa3008610f118f0f6f4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/logo.png",
+      "sha256": "66860e517a9d72760cbff9f3674c87acdd998273c95d70225cf3a1846f3044d8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-about-mobile.webp",
+      "sha256": "30f9878c17061f2b947d6e4e8769de34784ea420cced447e198d517d4ece4bab",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-about.webp",
+      "sha256": "796082e3df46e2a7f904100f3eb433e130929c4b5f7befdea7803fa7cc36cc67",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-education.webp",
+      "sha256": "225b56f8e02313efbd728e98182c0e3a1fc76ff811792da903db5abda18d88c3",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-field.webp",
+      "sha256": "cb479f04fdb78795c1c213e27d9cc89ad2f1c769213216807a0f0717fd8a4b9e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-publications-mobile.webp",
+      "sha256": "7808a70ca32560c0671908e63fd60538604ce5353e11f8096cd82c6168f04cf3",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-publications.webp",
+      "sha256": "deabdff54912103864af648f0d9afbdcf468ce18238b28e7a2315dc8278f1060",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/content-taxonomy.webp",
+      "sha256": "036d10b153c0fa8ba0d114bf9814e69ddacd8937c59e693c64a6c874fa88b97c",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-altiplano-group-activity-full.webp",
+      "sha256": "cec179826804ec036bcdf851e734d47665eb2d094eda5bb1306faaca232b7464",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-altiplano-group-activity-thumb.webp",
+      "sha256": "699f7e5b900afde730970e94ef24b947caf347c3af2c234890e86d433c924b0e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-aquatic-invertebrate-full.webp",
+      "sha256": "e176b8491dc2886aef13f9ea6e89eab19b0a0853e6e8f8b459c7cc03836623de",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-aquatic-invertebrate-thumb.webp",
+      "sha256": "fc3d5c48e159c5dda3222b16491845940fea846e30987cf985c00fffde1b43a8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-aquatic-organism-full.webp",
+      "sha256": "64743b816e0c4dbc54f767879ed247af24db1ea90551ce99ed0c23ff42da6dad",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-aquatic-organism-thumb.webp",
+      "sha256": "8427fc6b36e439d6cf71830e7dbf2c9f87abbf6c46b8518e8b3b68163216caa8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-birdwatching-full.webp",
+      "sha256": "6933ec86a20f2fc23a176f8272115778a8c6dcd2f889141e7fea7bbaf039dc01",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-birdwatching-thumb.webp",
+      "sha256": "11805ec52536ba7eace5db031ce1ec7afd91771c8d5d58b2eb3ebe5437f68a9f",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-butterfly-observation-full.webp",
+      "sha256": "d1985ce7fb7f62c020d694fc58d3f2d62c59651fc99a39d7722679e9b2931876",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-butterfly-observation-thumb.webp",
+      "sha256": "13e5e48c9c33224786902f76e01ab89461014e784dfc6a40544cd5f9192fcfd9",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-children-stereomicroscope-full.webp",
+      "sha256": "0afb3316b7d2402f86c6e511ca302bb031d6993c4c3e7f3007546a8732057676",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-children-stereomicroscope-thumb.webp",
+      "sha256": "51619b2e2246979d5f357157f77a9acd7aad80f5900394b9149517c59db96a43",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-classroom-group-activity-full.webp",
+      "sha256": "102cd4cfc13f0826f961122b8b2e96e01714a0c0268e38a97f10c746cebc25e6",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-classroom-group-activity-thumb.webp",
+      "sha256": "1acb0d17d34cd0e56f2836270a6f51f47a1e4e6cee35954cbf02974e5c89eed9",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-classroom-talk-full.webp",
+      "sha256": "7cda0554e1b81f8f753afc9181cb61568c4bb9f5a3ea1ca404418ac8dc7d8524",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-classroom-talk-thumb.webp",
+      "sha256": "b5c2c157a0917b0aa1b14a6a3c9e9a0fdab9e81dd563c205395940066a246043",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-desert-entomology-full.webp",
+      "sha256": "3cc50ef68911f7337b97c3a81163b005174d627fb5729491e5bce32c742c14c3",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-desert-entomology-thumb.webp",
+      "sha256": "1b8e1415bb8306063383f5c8e766f7b777a3a5aa703993f1abdbc422b730d5bc",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-diatom-full.webp",
+      "sha256": "8ba3043bd85f886906ebccc38de47227e23cae8228efea9c4cb7caeefba95940",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-diatom-thumb.webp",
+      "sha256": "258f2191608c3f3b3730b74dae095ef3053b190262c1d904f582dbb41927ab99",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-environmental-workshop-full.webp",
+      "sha256": "abecdbf697b7b95e06ec0464a8cddf596a4194a39b569275999145b54faafdb6",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-environmental-workshop-thumb.webp",
+      "sha256": "405d01cd22f1d910ac0a78f824db629661cfc29982c57d03745d5d205ea2367a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-family-trail-full.webp",
+      "sha256": "1b66b46b306619ee64ac3501a35be6905a7f170adda21c06c6b60ce386f1cb33",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-family-trail-thumb.webp",
+      "sha256": "9634588b2345ebb448b3ae6d845bcc654ff2ebcd9d9ede045302055580669001",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-environmental-game-full.webp",
+      "sha256": "8594df2eb9477118a71fecc3ad81f195ed49503f40548db518b3933bb066e7a8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-environmental-game-thumb.webp",
+      "sha256": "0945d1fc56ad941315fdef2767fd0799a8870a69fb74732a2eb51ac9e1a34df4",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-learning-full.webp",
+      "sha256": "17b285b67655342eb0281d9319fa85ecc4aaae510127b0e34bb6bff065103891",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-learning-thumb.webp",
+      "sha256": "8774f011286562e2a9002c45e025d50600a0220fb684dc9aa7d3d249c67141dc",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-sampling-full.webp",
+      "sha256": "196885bd8406eadc8e450568bd56a1a443957f1af74f01bf127bb995cee39884",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-field-sampling-thumb.webp",
+      "sha256": "f7aba9b0637c601ff943c4fba8e4fc5f5e899f6332ba7eeed3bf6d07f0110f58",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-forest-insect-sampling-full.webp",
+      "sha256": "cdbf45fc934f4f9735712860867deb4374939df3eafc7065fcdb599f3f36ce66",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-forest-insect-sampling-thumb.webp",
+      "sha256": "e32cf8417b4ce3c241d203e86fa22d59063df972d88f0bc6997bb7904066d5ab",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-gps-monitoring-full.webp",
+      "sha256": "6ba9f2f50271895386adbc6f00aba3109347167a496d874413e0d1029d316043",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-gps-monitoring-thumb.webp",
+      "sha256": "6c40911d219bd1f072969dd9e0e638614910a9735f4e19fa67ac0f3041683b21",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-guided-stereomicroscope-full.webp",
+      "sha256": "d4c58d5a942d9d52dbd46c205ed469dfa856a2365a42bd34e3f278cbc067165a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-guided-stereomicroscope-thumb.webp",
+      "sha256": "fd1931112f542f965cfa4d848821b3831319dc7df1593b22c7174af47c0d8edf",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-activity-full.webp",
+      "sha256": "a539af52986f27e5049ee358be352905b33ab24b7a8bd6a6ccc3b8685f3d22d3",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-activity-thumb.webp",
+      "sha256": "ed79b290a4e955443567a66198378dfa973591b40f9bad7e397db342de9c0ca8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-art-workshop-full.webp",
+      "sha256": "4a6b25735f31d7f81979bab5c34d036f9bbd7a0693b51409a7105b7f6947c438",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-art-workshop-thumb.webp",
+      "sha256": "c795c1ba3295243459fc006687fd7e4a50369fc327c4a29c81e9c9e8ecf4f438",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-workshop-diploma-full.webp",
+      "sha256": "d0c6bfd09ddf6a307013c7b91c917050a13d4c036f27cef4aa66d21898e24563",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-insect-workshop-diploma-thumb.webp",
+      "sha256": "12655dc890a4d466e8b1cb2811602b94ca02d4f1a6de2c95d49e5e90c6fabc51",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-microscope-workshop-full.webp",
+      "sha256": "8810551db6473e847a4ab9ed0caa8702166a2759af797d45f6ffeae95ed1150c",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-microscope-workshop-thumb.webp",
+      "sha256": "7b5f25debe71857088d8ff6b5048f34e61635108227b9e21b1a22e498e77293c",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-moth-full.webp",
+      "sha256": "ead92014271f196a5bb3d5cf5614271ef66d62addd4839a1e48e6aa9640b894b",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-moth-thumb.webp",
+      "sha256": "9d8fa320a2a37fb92f2c2babfc233fb88b541eaf57aaaf8b503c4dcafbe93925",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-nature-connection-full.webp",
+      "sha256": "3e7246b94c9890d40ba994f2a4d11cf93ec29bc6cfb1515079a04bd7bdc6efe2",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-nature-connection-thumb.webp",
+      "sha256": "f163533c128f96d934c500b2199bb8b152195ea8baece10c23b73328ec49a3b7",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-outdoor-interpretation-full.webp",
+      "sha256": "ad185aa0bbc98833af2e41c7edfa8efc034215429005abaed6b04e9ae0be35cf",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-outdoor-interpretation-thumb.webp",
+      "sha256": "b28cbf57583a0b0731ceeb497b71a85e1bd96524631079879d70e1e7b79346dd",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-school-insect-sampling-full.webp",
+      "sha256": "3e468cba1de482ffb09b1eb89d43dc70715f83ca65030279cd0c6092f5e4aae9",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-school-insect-sampling-thumb.webp",
+      "sha256": "26a4ef2f092a996e3b17c083e6062ea013f690b4a186c85b44b45d0acc5cf146",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-school-laboratory-full.webp",
+      "sha256": "ce07cb66eef122cd3b4f5adc8257ccbabf300a7fc87af4a88a8fbff9798247aa",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-school-laboratory-thumb.webp",
+      "sha256": "ae1224c593b64420a3efdd6f065997fb6301a86909bbe4a579e3bcfe7e2d4101",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-tarantula-field-full.webp",
+      "sha256": "3ccda40ee64ae896d8ee98ad59db2ef6a893740f145db2e4bd8a06c571d4035a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-tarantula-field-thumb.webp",
+      "sha256": "549d7e30c09bf63c42c9610d4d35f335a877c2648121704d837f1329f33875ed",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-tarantula-full.webp",
+      "sha256": "74f0403ddf0503a19f30e0f08acc5716506554967eb30411756252f0dbdacd68",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-tarantula-thumb.webp",
+      "sha256": "95324939063561bc5f4b8f313ed941198aae580e7221d5a5b753682e47da2a5a",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-taxonomy-workshop-full.webp",
+      "sha256": "f0bd08ff984a89ea2cbc6d5036f9e409e7f9b54657a1064295367a834b5268b3",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-taxonomy-workshop-thumb.webp",
+      "sha256": "6c8562c27c9d5a71ee841fd66abfa7fe4d15265eb1a03057f73602413528700d",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-workshop-group-dynamic-full.webp",
+      "sha256": "2c2f59d2bf6ba450b024c5b7dcd1424c8b751fa5118df37ffd7b999cd28c75bf",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/gallery/gallery-workshop-group-dynamic-thumb.webp",
+      "sha256": "8158926df12c15768fadd8a96300461a4da29dac1f34e67d7f2ec8c3baaa954b",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-field-desktop.webp",
+      "sha256": "0e6bf2ac1ecb285cd18d3e470cdc7e54a8998dc90a6be82f62f779ddb92253fa",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-field-mobile.webp",
+      "sha256": "cc36a11ccafc44f81b050877488f9e62cba30e7ee6ff5a57a4252c3ffda55d1e",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-insect-desktop.webp",
+      "sha256": "d7f42d5be9b662090b017600b4e422f220d3c7bbca911f89cec8458b0c56f8ae",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-insect-mobile.webp",
+      "sha256": "cb5fb9cce13770cebe6768b9bb61678f82c326b460b815bf5d99ffb5b414c5e8",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-team-desktop.webp",
+      "sha256": "5f9cd0ab340a629a578a2b74935cbed937c1e95148e78e30648644f2ab2a359b",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/hero-team-mobile.webp",
+      "sha256": "29ae007035a9c38c1794d46d4fd75f3295121872094219c1ac401f888c75cd9d",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/logo.webp",
+      "sha256": "fa3fab8f1ab6bf2f4ac74007874b79e441d576c77efa0728253a54e1dc728ec5",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-about-desktop.webp",
+      "sha256": "2f854677b6a96cb9e3ac686e172a9e72d13abb72af6a786f72494b52f2b4cefd",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-about-mobile.webp",
+      "sha256": "b86fbb1f665c740a5b05d35a5a7051ea79ad0f48dbc1cf418fa6da1360a4fd34",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-gallery-desktop.webp",
+      "sha256": "2f4526bb5d53cf600e915e82ae0d56c0f2f95e15ac8864e5bd70ce49c8c2295c",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-gallery-mobile.webp",
+      "sha256": "0b6a59fd2360d454d2630d89ebb59d35af7786b73e3eda3e24c8551a74bc0085",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-publications-desktop.webp",
+      "sha256": "10bc31d2dc401a74b16b9af78e67a424cef22c4fffe542bf8e687d8e02e3c52d",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-publications-mobile.webp",
+      "sha256": "9226651090de96bb58646c34492bcee2f8626be5d348c56441ccca0df95c7933",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-services-desktop.webp",
+      "sha256": "43f722b2b1f7fa1f69fc885d31055d30b0f878083e7ee7351b29fe678454bbbd",
+      "footerInsertion": false
+    },
+    {
+      "path": "assets/optimized/page-services-mobile.webp",
+      "sha256": "beaaa2d3f19da6b2dffffc49e491e4c04d43880b38709cbb898cf891587f987a",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/Nuevo Presentación de Microsoft PowerPoint.pptx",
+      "sha256": "79fcf7863edc9f3046d0fe4924433ed99c2adb7e325895ad2d7356e8748f71f4",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente1.png",
+      "sha256": "7402d6526d72ad82ad3fe48f03c09a4bc6ca2995df7cab6ccd4d64b9a17dcfc0",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente2.png",
+      "sha256": "e95c029f07759ba396e3fa68293744c428e2f51fd4120b2374537cec7798c8f5",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente3.png",
+      "sha256": "7c27a98bd4c4052af575ad98a0f66cfd83c7c9a7e5e81159da805e4b21ec62d5",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente4.png",
+      "sha256": "597a31531fe351ffe0f1d25047bce0f9c64507201d57384bf159ef9de46b7062",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente5.png",
+      "sha256": "5bd627ee1d87aea6226f1f1585fb8637f656f090a5a5f6d9247097153ff4fb52",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/cliente6.png",
+      "sha256": "6d69528e6896c060b2879aa0b6cefa1bc894b8d0c7b21145626f24f81d80f8b2",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/hero1.jpg",
+      "sha256": "f9646fe444ddf8808c658daac889d5aa265aac8b794596ace3a361f0d348c11a",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/hero2.jpg",
+      "sha256": "4d28fb7e3cb812adfa858c1ebb92b12298fcb05835c0efcf8abf25a754fab5ff",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/hero3.jpg",
+      "sha256": "985b177c65bccac4afea408317e8b412eb79b763a310f976e0037744ef5cd0c1",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/servicios1.png",
+      "sha256": "9179cec7a93d1b5e42ef0437ce7eb42af45e930400c11c18dad8a37e6f5e8b18",
+      "footerInsertion": false
+    },
+    {
+      "path": "cliente/servicios2.jpg",
+      "sha256": "0157cfdeee30d1e5b62c173c46f10d2f86ff4259f593254433b8913801f9cd04",
+      "footerInsertion": false
+    },
+    {
+      "path": "css/about-page.css",
+      "sha256": "3decdae7d617350165be5e9783fa4eed176d2923abff4fc74cc8b93f9e2c90c8",
+      "footerInsertion": false
+    },
+    {
+      "path": "css/animations.css",
+      "sha256": "9d6045a5486cb73d2c4ac5c286b0adfd67834baffcf6c34fb7b10b51cbf33499",
+      "footerInsertion": false
+    },
+    {
+      "path": "css/client-redesign.css",
+      "sha256": "f7520dcdc2f69c4f6634862c5d31238f98e95fef35509d2798d207c558345990",
+      "footerInsertion": false
+    },
+    {
+      "path": "css/icons.css",
+      "sha256": "eae6cefee41cb9881141a0a43cf121d1908c0f30f980e8bfb0e7fab2c52fb5fc",
+      "footerInsertion": false
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "66b82cf6cc006cda8f3ee133d57ef317183bff098f1070fa96527af04d273f11",
+      "footerInsertion": false
+    },
+    {
+      "path": "index.html",
+      "sha256": "7b3e5cecf4f680756da6ece0014fec0be0e68102044786918e4e4b4603400805",
+      "footerInsertion": true
+    },
+    {
+      "path": "js/animations.js",
+      "sha256": "86d7c0e90ef72348c36c425af04b910baf300da7fcc19858f0d23e980b387cfe",
+      "footerInsertion": false
+    },
+    {
+      "path": "js/client-site.js",
+      "sha256": "0e8ffee629963e479817187421728e6cd776dd746af5dd59523a81e44a72178d",
+      "footerInsertion": false
+    },
+    {
+      "path": "js/components.js",
+      "sha256": "e65eda141c41e300aa596197949582ad8cbab62ed6ff6cf70da0a2c11c857029",
+      "footerInsertion": false
+    },
+    {
+      "path": "js/config.js",
+      "sha256": "8826e3aca6d20acc36e9398d1273a21930c09798cd4a245813dd93831c674390",
+      "footerInsertion": false
+    },
+    {
+      "path": "js/icons.js",
+      "sha256": "16eb3bfdcdc3568678a769ad7669bcf2b37ece22624d6fbed2db96728d8c02ca",
+      "footerInsertion": false
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "3635de10d923bc7d868e4bd87a01d389d98209c8db1e1d51ce86f5d57abe8401",
+      "footerInsertion": false
+    },
+    {
+      "path": "package.json",
+      "sha256": "b50aa4f6f32bbe6b099b88c2d469718905ff4c96cdd3385d713f371343f5d969",
+      "footerInsertion": false
+    },
+    {
+      "path": "pages/blog.html",
+      "sha256": "a125b69d1396e4c47c3c5a57d86cfed957ed07ab96c4b3870db9a5d0fee59e5c",
+      "footerInsertion": false
+    },
+    {
+      "path": "pages/casos.html",
+      "sha256": "736b5e9ee29043cf63967f173d011eed5b6a24223d5c83e50e6454bdf9f78479",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/consultora-ambiental-concepcion.html",
+      "sha256": "f6e1c593fbecce38e5f1e7d33760cdd03fbeb47c21439c3946ddc20c162b1fee",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/contacto.html",
+      "sha256": "9eabe936d25ba517341f057f71168d6d79a610e63c19d5cd8f8d4dc938156f6b",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/galeria-2.html",
+      "sha256": "8a6eb2a1b92019eb2d2a2f79a9ba6eefc45287456d2a7007476aa56a50ddc6ea",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/galeria.html",
+      "sha256": "92faaf469745a8cd2a6566f336bf18248792cc4616bb30698e97d6c6174ad8a8",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/privacidad.html",
+      "sha256": "2005e0b4695545f9e6a6020cb22936027f6d62e47f405906031f192e35e99fc0",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/publicaciones.html",
+      "sha256": "33ecd6df5b959e74b2fd6f055e81417cc49340cf45d32e31a83a73447944040f",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios.html",
+      "sha256": "d31f6f8f24eb0aa9ab20af66c1f2b61555f0f4c9e8d355481538d1008e43d9e6",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/capacitaciones.html",
+      "sha256": "79ef2d4b6b0f6323565a991f4fa8f3f8ed0a1cf4659cd146571406b8bf464d5b",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/educacion-ambiental.html",
+      "sha256": "cf132e1e2cb6a63c9f0cefc0276b56f0d037177acbcdeae3c0c4fcf496a481c2",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/linea-base-artropodos.html",
+      "sha256": "e7ab6b572930e66c03838d3c6c9ba82b61b6d74bf81e0f3a8d2212fe52b7c656",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/linea-base-terrestre.html",
+      "sha256": "59e616e8533ca59b9f503916122bd7911b75b93f24af36a47bf2a5c98dbd9346",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/monitoreo-biodiversidad.html",
+      "sha256": "50bf4d48399e51accd56c258f2bfaf39f084ac0b902d2ae594a3ec0c9ff9a7cd",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/servicios/taxonomia-acuatica.html",
+      "sha256": "781d013c15054b6ee49c04265c70164d233d5622d44f30a93e10a2772e2a579b",
+      "footerInsertion": true
+    },
+    {
+      "path": "pages/sobre-nosotros.html",
+      "sha256": "df46804070e791903eca9638c8ac73a5968179e96e7df450828281552c3e3e4d",
+      "footerInsertion": true
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "b8c72f0384e116b9d661c51ce797a0b631ca9feb217497d695289061a3625dd4",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/galeria-2-desktop-full.png",
+      "sha256": "5ae1d266f15efae23007809d22ee8ce0a8fa16d521350fee54018074ee2625b1",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/galeria-2-mobile-full.png",
+      "sha256": "dba7ff7a6ba0d7483e4a1335970ff6cde010167e46d8c66aecbea004526e9f8e",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/home-desktop-1920x1080.png",
+      "sha256": "4fc86ced50abf0d23e4b88b7ca8af0e5e6d33e2f52a1acafb568becfbe8fec25",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/home-mobile-375x812.png",
+      "sha256": "bf0b448001e5e9d838042ae462811cd4bf425badeb9bf27cce74fc608e1afd6f",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/home-mobile-menu-open-375x812.png",
+      "sha256": "7440b334d091ffa44dc7f7c60945784b1c615fc194d817a7d22aa62b23dd3ea7",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/phase1-contacto-mobile-375x812.png",
+      "sha256": "a1349d1c12ed5fc83027f759bd5cea0658adf97dfd6c4c7b602cd3b29ca397d7",
+      "footerInsertion": false
+    },
+    {
+      "path": "screenshots/phase1-home-mobile-375x812.png",
+      "sha256": "324648f564611767b4aaeaa66e7db501e6ece0a5bbb9b1b29a7911b6a5e62cf5",
+      "footerInsertion": false
+    },
+    {
+      "path": "script.js",
+      "sha256": "b4e5dfde5fa566620cde475cb34b8091a14a145e9cc069c28c1595f768592f75",
+      "footerInsertion": false
+    },
+    {
+      "path": "scripts/indexnow.mjs",
+      "sha256": "82c5622e14a968424557471c651f385efb2707718e8c8bebec52d126e5e4fc1e",
+      "footerInsertion": false
+    },
+    {
+      "path": "scripts/seo-audit.mjs",
+      "sha256": "25d036910a70cd2c3768763bdd753c963bce21eae9fa92804767136945396851",
+      "footerInsertion": false
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "bdb7b10d1072bb52668f09d27141341ffbb4489d06ff6d07425b0ea20a41030f",
+      "footerInsertion": false
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "a5597cbd3ae833124059af923d68185a99004d849c208e075dbaddbeb2164159",
+      "footerInsertion": false
+    },
+    {
+      "path": "styles.css",
+      "sha256": "354ebb16be6841e26e9a718d63d7b5fbffc2b7336b37fbfde0813e28c4f77c81",
+      "footerInsertion": false
+    },
+    {
+      "path": "vercel.json",
+      "sha256": "2da187a0a60291e413cc1bd8707e214577a7ce2de8522fa681780f97018a2034",
+      "footerInsertion": false
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "802fb1241d62049e795583c62ddc503775e9a5fd4c5c2b3e8050439e05ac958c",
+      "footerInsertion": false
+    }
+  ]
+}
