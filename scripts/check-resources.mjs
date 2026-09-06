@@ -7,7 +7,7 @@ const origin=process.env.SEO_PREVIEW_ORIGIN || 'http://127.0.0.1:4173';
 const production='https://www.caminandootrosendero.cl';
 const sitemap=readFileSync('sitemap-recursos.xml','utf8');
 const urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1].replace(production,''));
-const browser=await chromium.launch({headless:true});
+const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
 const reports=[], errors=[], titles=new Set(),descriptions=new Set(),h1s=new Set(),graph=new Map(),targets=new Set();
 mkdirSync('screenshots/seo-resources',{recursive:true});
 for(const path of urls){

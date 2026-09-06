@@ -50,7 +50,7 @@ def layout(path,title,description,h1,intro,body,crumbs,kind='CollectionPage',ext
 <a class="r-skip" href="#contenido">Saltar al contenido</a>
 <header class="r-header"><div class="r-wrap"><a class="r-brand" href="/"><img src="/assets/client/logo-client-280.webp" width="64" height="64" alt=""><span>Caminando<br>Otro Sendero</span></a><nav aria-label="Navegación principal"><a href="/pages/servicios">Servicios</a><a href="/pages/sobre-nosotros">Nosotros</a><a href="/pages/contacto">Contacto</a></nav></div></header>
 <main id="contenido"><div class="r-hero"><div class="r-wrap">{breadcrumb(crumbs)}<p class="r-eyebrow">{e(category)}</p><h1>{e(h1)}</h1><p class="r-intro">{e(intro)}</p><p class="r-meta">Caminando Otro Sendero SpA · Actualización editorial: <time datetime="{DATE}">3 de septiembre de 2026</time></p></div></div>{body}</main>
-<footer class="r-footer"><div class="r-wrap"><p>Caminando Otro Sendero SpA · Conocimiento ambiental</p><a href="{HUB}">Centro de conocimiento</a><a href="/pages/contacto">Contacto</a><a href="/pages/privacidad">Privacidad</a></div></footer>
+<footer class="r-footer"><div class="r-wrap"><p>Caminando Otro Sendero SpA · Conocimiento ambiental</p><a href="/pages/conocimiento">Conocimiento técnico</a><a href="{HUB}">Centro de conocimiento</a><a href="/pages/contacto">Contacto</a><a href="/pages/privacidad">Privacidad</a></div></footer>
 </body></html>
 '''
 

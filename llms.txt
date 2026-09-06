@@ -38,3 +38,8 @@ Sitio oficial: https://www.caminandootrosendero.cl/
 ## Temas principales
 
 Líneas base de fauna, SEIA, monitoreo de biodiversidad, entomofauna, macroinvertebrados acuáticos, zooplancton, fitoplancton, zoobentos, fitobentos, bioindicadores, informes técnicos, educación ambiental y capacitación para empresas.
+
+## Conocimiento técnico ambiental
+
+- [Conocimiento técnico ambiental](https://www.caminandootrosendero.cl/pages/conocimiento)
+- [Preguntas sobre artrópodos, entomofauna y línea base en el SEIA](https://www.caminandootrosendero.cl/pages/conocimiento/faq-artropodos-entomofauna-seia)

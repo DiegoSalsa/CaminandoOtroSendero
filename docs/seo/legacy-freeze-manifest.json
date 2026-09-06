@@ -1,6 +1,6 @@
 {
   "baseCommit": "4b999ae6cd113a1d60a7378b0c2b58046fcc57fa",
-  "allowedInsertion": "<a href=\"/pages/recursos\" style=\"position:absolute;align-self:flex-end;transform:translateY(28px)\">Centro de conocimiento</a>",
+  "allowedInsertion": "<a href=\"/pages/conocimiento\">Conocimiento técnico</a><a href=\"/pages/recursos\" style=\"position:absolute;align-self:flex-end;transform:translateY(28px)\">Centro de conocimiento</a>",
   "files": [
     {
       "path": ".env.example",
@@ -824,7 +824,7 @@
     },
     {
       "path": "llms.txt",
-      "sha256": "3635de10d923bc7d868e4bd87a01d389d98209c8db1e1d51ce86f5d57abe8401",
+      "sha256": "b7ae5152f1b020b360257a65e9766501cb1ee1ed47435cf72d31ccb5676e397c",
       "footerInsertion": false
     },
     {
@@ -974,7 +974,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "a5597cbd3ae833124059af923d68185a99004d849c208e075dbaddbeb2164159",
+      "sha256": "594394aaf0d9bda5eb8f0cea9c2c68244b4cad37bf7481fea1f29cf81cbccc46",
       "footerInsertion": false
     },
     {
