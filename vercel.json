@@ -44,11 +44,6 @@
       "permanent": true
     },
     {
-      "source": "/pages/servicios/linea-base-terrestre.html",
-      "destination": "/pages/servicios/linea-base-artropodos",
-      "permanent": true
-    },
-    {
       "source": "/pages/blog",
       "destination": "/pages/publicaciones",
       "permanent": true

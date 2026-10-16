@@ -6,7 +6,7 @@ Fecha: 15 de octubre de 2026 (America/Santiago).
 
 Se eliminó la tarjeta de línea base de vertebrados y la ficha general `pages/servicios/linea-base-terrestre.html`. Se retiraron sus enlaces del sitio, del componente de navegación reutilizable, de `llms.txt` y del sitemap. Las menciones comerciales amplias de línea base de fauna se precisaron como artrópodos; la página de monitoreo y el formulario delimitan su alcance a invertebrados. Las publicaciones históricas conservan sus antecedentes científicos.
 
-Las rutas `/pages/servicios/linea-base-terrestre` y `/pages/servicios/linea-base-terrestre.html` tienen redirecciones permanentes a `/pages/servicios/linea-base-artropodos` en `vercel.json`. El componente de invertebrados terrestres de la ficha retirada ya está cubierto por esa página. No se creó una segunda ficha para esa intención de búsqueda.
+La ruta `/pages/servicios/linea-base-terrestre` tiene una redirección permanente a `/pages/servicios/linea-base-artropodos` en `vercel.json`. Para la variante `.html`, Vercel aplica primero la normalización de `cleanUrls` y luego esta redirección; ambas respuestas son HTTP 308. Se conserva la configuración global de URLs y no se añade una regla redundante con extensión. El componente de invertebrados terrestres de la ficha retirada ya está cubierto por la página de artrópodos. No se creó una segunda ficha para esa intención de búsqueda.
 
 Se agregaron enlaces directos a la página de artrópodos desde las tarjetas pertinentes de servicios, capacitación y taxonomía acuática. El formulario conserva la opción de artrópodos, usa «Monitoreo de invertebrados» y valida también su opción existente «Identificación taxonómica» en el servidor.
 
@@ -33,7 +33,7 @@ Huellas SHA-256 de la página protegida:
 ## Verificación
 
 - `npm run seo:audit`: 26 páginas indexables y 28 archivos HTML; metadatos, JSON-LD, enlaces locales y sitemaps válidos. Se actualizó el comprobador para considerar el sitemap complementario de recursos, que ya existía, y las cinco fichas de servicio restantes.
-- Vista previa local: ambas rutas retiradas responden con HTTP 308 directamente a artrópodos; el destino responde HTTP 200 sin redirección.
+- Redirecciones: la ruta limpia retirada responde con HTTP 308 directamente a artrópodos; la variante `.html` pasa antes por la normalización de Vercel. El destino responde HTTP 200 sin redirección.
 - Formulario: seis servicios visibles aceptados y dos etiquetas retiradas rechazadas. Se ejecutó el handler real con Resend simulado; no se enviaron correos reales.
 - Doce revisiones de navegador: inicio, servicios, artrópodos, monitoreo, Concepción y contacto en escritorio (1440 px) y móvil (390 px). Un H1 por página, sin desbordamiento horizontal, imágenes rotas, enlaces retirados ni errores de JavaScript.
 - La primera pantalla de artrópodos resultó visualmente idéntica antes y después en ambos tamaños.
