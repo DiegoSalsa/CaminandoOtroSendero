@@ -3,9 +3,9 @@ const { Resend } = require('resend');
 const ALLOWED_SERVICES = [
     'Consultoría ambiental',
     'Línea base de artrópodos',
-    'Línea base de fauna',
-    'Línea base de fauna y monitoreo',
+    'Monitoreo de invertebrados',
     'Monitoreo de biodiversidad',
+    'Identificación taxonómica',
     'Taxonomía acuática',
     'Educación ambiental',
     'Capacitaciones ambientales',

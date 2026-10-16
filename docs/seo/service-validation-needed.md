@@ -1,5 +1,11 @@
 # Alcances pendientes de validar
 
+## Especialidad comercial confirmada — 15 de octubre de 2026
+
+El titular confirmó mediante el cliente que los vertebrados no forman parte de su especialidad. Se retira la oferta comercial de línea base de vertebrados y se delimita el monitoreo a invertebrados. La línea base de artrópodos mantiene su página existente como destino principal; no crear otra ficha equivalente ni volver a ofrecer caracterización de vertebrados bajo términos genéricos de fauna.
+
+Las publicaciones científicas históricas se conservan como antecedentes de investigación. La autoría de un trabajo sobre vertebrados no acredita que se ofrezca ese componente como servicio.
+
 ## Limnología
 
 No se creó una landing comercial ni se ofrece un estudio limnológico integral. Validar con el titular:

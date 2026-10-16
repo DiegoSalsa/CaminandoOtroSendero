@@ -121,17 +121,20 @@ for (const absoluteFile of htmlFiles) {
   }
 }
 
-const sitemap = readFileSync(join(root, "sitemap.xml"), "utf8");
+const sitemap = ["sitemap.xml", "sitemap-recursos.xml"]
+  .filter((file) => existsSync(join(root, file)))
+  .map((file) => readFileSync(join(root, file), "utf8"))
+  .join("\n");
 const sitemapUrls = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].trim()));
 const canonicalUrls = new Set(canonicals.keys());
 
-for (const url of canonicalUrls) if (!sitemapUrls.has(url)) errors.push(`sitemap.xml: missing ${url}`);
-for (const url of sitemapUrls) if (!canonicalUrls.has(url)) errors.push(`sitemap.xml: URL has no indexable canonical (${url})`);
+for (const url of canonicalUrls) if (!sitemapUrls.has(url)) errors.push(`sitemaps: missing ${url}`);
+for (const url of sitemapUrls) if (!canonicalUrls.has(url)) errors.push(`sitemaps: URL has no indexable canonical (${url})`);
 
 const robots = readFileSync(join(root, "robots.txt"), "utf8");
 if (!robots.includes(`Sitemap: ${canonicalOrigin}/sitemap.xml`)) errors.push("robots.txt: canonical sitemap URL is missing");
 
-if (servicePages.size !== 6) errors.push(`expected 6 service detail pages, found ${servicePages.size}`);
+if (servicePages.size !== 5) errors.push(`expected 5 service detail pages, found ${servicePages.size}`);
 
 const organizationCoreFields = [
   "@type", "name", "legalName", "taxID", "url", "foundingDate", "description",

@@ -91,7 +91,7 @@ CaminandoOtroSendero/
     ├── servicios.html
     ├── sobre-nosotros.html
     └── servicios/          # Subpáginas de servicios
-        ├── linea-base-terrestre.html
+        ├── linea-base-artropodos.html
         ├── taxonomia-acuatica.html
         ├── capacitaciones.html
         └── educacion-ambiental.html

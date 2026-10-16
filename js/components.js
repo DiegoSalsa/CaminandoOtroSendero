@@ -18,7 +18,7 @@ class Header {
                         <li class="nav-dropdown">
                             <a href="${this.basePath}pages/servicios.html" class="nav-link dropdown-toggle">Servicios <span class="dropdown-arrow">▾</span></a>
                             <div class="dropdown-menu">
-                                <a href="${this.basePath}pages/servicios/linea-base-terrestre.html">Línea Base Terrestre</a>
+                                <a href="${this.basePath}pages/servicios/linea-base-artropodos">Línea Base de Artrópodos</a>
                                 <a href="${this.basePath}pages/servicios/taxonomia-acuatica.html">Taxonomía Acuática</a>
                                 <a href="${this.basePath}pages/servicios/capacitaciones.html">Capacitaciones</a>
                                 <a href="${this.basePath}pages/servicios/educacion-ambiental.html">Educación Ambiental</a>
@@ -74,7 +74,7 @@ class Footer {
                             <div class="footer-links">
                                 <h4>Servicios</h4>
                                 <ul>
-                                    <li><a href="${this.basePath}pages/servicios/linea-base-terrestre.html">Línea Base Terrestre</a></li>
+                                    <li><a href="${this.basePath}pages/servicios/linea-base-artropodos">Línea Base de Artrópodos</a></li>
                                     <li><a href="${this.basePath}pages/servicios/taxonomia-acuatica.html">Taxonomía Acuática</a></li>
                                     <li><a href="${this.basePath}pages/servicios/capacitaciones.html">Capacitaciones</a></li>
                                     <li><a href="${this.basePath}pages/servicios/educacion-ambiental.html">Educación Ambiental</a></li>

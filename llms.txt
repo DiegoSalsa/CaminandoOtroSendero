@@ -10,16 +10,15 @@ Sitio oficial: https://www.caminandootrosendero.cl/
 - RUT: 76.932.987-0
 - Base operativa: Talcahuano, Región del Biobío, Chile.
 - Área de servicio: Región del Biobío y otras regiones de Chile, según proyecto.
-- Dirección científica: Luis E. Carrera Suárez, biólogo especialista en invertebrados, taxonomía, líneas base de fauna e investigación ambiental.
+- Dirección científica: Luis E. Carrera Suárez, biólogo especialista en invertebrados, taxonomía, líneas base de artrópodos e investigación ambiental.
 - [Empresa y equipo](https://www.caminandootrosendero.cl/pages/sobre-nosotros)
 - [Publicaciones científicas](https://www.caminandootrosendero.cl/pages/publicaciones)
 
 ## Servicios
 
 - [Consultoría ambiental y servicios](https://www.caminandootrosendero.cl/pages/servicios)
-- [Línea base de fauna para SEIA](https://www.caminandootrosendero.cl/pages/servicios/linea-base-terrestre)
 - [Línea base de artrópodos terrestres](https://www.caminandootrosendero.cl/pages/servicios/linea-base-artropodos)
-- [Monitoreo de biodiversidad y fauna](https://www.caminandootrosendero.cl/pages/servicios/monitoreo-biodiversidad)
+- [Monitoreo de biodiversidad e invertebrados](https://www.caminandootrosendero.cl/pages/servicios/monitoreo-biodiversidad)
 - [Taxonomía acuática y macroinvertebrados](https://www.caminandootrosendero.cl/pages/servicios/taxonomia-acuatica)
 - [Educación ambiental y talleres](https://www.caminandootrosendero.cl/pages/servicios/educacion-ambiental)
 - [Capacitaciones ambientales para empresas](https://www.caminandootrosendero.cl/pages/servicios/capacitaciones)
@@ -37,7 +36,7 @@ Sitio oficial: https://www.caminandootrosendero.cl/
 
 ## Temas principales
 
-Líneas base de fauna, SEIA, monitoreo de biodiversidad, entomofauna, macroinvertebrados acuáticos, zooplancton, fitoplancton, zoobentos, fitobentos, bioindicadores, informes técnicos, educación ambiental y capacitación para empresas.
+Líneas base de artrópodos, SEIA, monitoreo de biodiversidad, entomofauna, macroinvertebrados acuáticos, zooplancton, fitoplancton, zoobentos, fitobentos, bioindicadores, informes técnicos, educación ambiental y capacitación para empresas.
 
 ## Conocimiento técnico ambiental
 
